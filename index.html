@@ -30,16 +30,16 @@
 </head>
 </head>
 <body>
-<div class="container-xxl siteWrapper p-0">
-	<section class="banner">
-	<div class="wrapper">
-		<div class="header container container-fluid p-0">
+<section class="container-fluid p-0 firstSection d-flex justify-content-center"> <!-- firstSection-->
+<div class="container-xxl siteWrapper p-0 m-0">
+	<div class="wrapper d-flex justify-content-center p-0 flex-column"> <!-- wrapper -->
+		<div class="header container container-fluid p-0"> <!-- header -->
 			<div class="row m-0 p-0">
-					<div class="col-lg-3 align-self-start p-0 m-0 w-25">
-						<div class="imgBox"><img src="./assets/images/logo.png" alt=""></div>
+					<div class="col-lg-3 col-md-12 align-self-start p-0 m-0">
+						<div class="imgBox mx-auto"><img src="./assets/images/logo.png" alt=""></div>
 					</div>
-					<div class="col m-0 p-0 d-flex align-self-center justify-content-end menu">
-						<ul class="my-auto">
+					<div class="col m-0 p-0 d-flex align-self-center justify-content-end menuDiv">
+						<ul class="my-auto p-0">
 							<li class="mx-auto"><a href="./index.html">home</a></li>
 							<li class="mx-auto"><a href="#">services</a></li>
 							<li class="mx-auto"><a href="#">about</a></li>
@@ -51,7 +51,7 @@
 					</div>
 					<!-- mobile-menu -->
 					<div class="menuToggle mobile-menu" onclick="toggleMenu();">
-						<ul class="menu navigation">
+						<ul class="menu navigation p-0">
 							<li><a href="./index.html" onclick="toggleMenu();">home</a></li>
 							<li><a href="#creative" onclick="toggleMenu();">about us</a></li>
 							<li><a href="#gallery" onclick="toggleMenu();">blog</a></li>
@@ -64,25 +64,99 @@
 						</button>
 					</div> <!-- mobile-menu -->
 			</div>
-		</div>
-	</div>
-	</section>
+		</div> <!-- header -->
+		<div class="contentBox container container-fluid p-0 position-relative d-flex"> <!-- contentBox -->
+			<div class="col-5 p-0 textBox">
+				<h2>unique-tech <br>
+				app development</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ducimus et dolorem sed accusantium temporibus tenetur qui reiciendis consequatur corporis facere doloremque hic ipsam quam eum provident quo tempora consequuntur!<br>
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ducimus et dolorem sed accusantium temporibus
+					tenetur.
+				</p>
+				<a class="btn" href="#"><div class="btnBox d-flex align-items-center"><h3 class="m-0">view more</h3><div class="imgBox me-0 mx-auto"><img src="./assets/images/arrow.png" alt=""></div></div></a>
+			</div>
+			<div class="arrowBox position-absolute">
+				<img src="./assets/images/Shape_7.png" alt="">
+			</div>
+			<div class="slider position-relative">
+				<div class="comp position-absolute">
+					<div class="imgBox"><img src="./assets/images/MacBook_Pro_RetinaLayer.jpg" alt=""></div>
+					<div class="sliderBox position-absolute">
+						<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="./assets/images/Layer 6.jpg" class="d-block " alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="./assets/images/Layer 6.jpg" class="d-block " alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="./assets/images/Layer 6.jpg" class="d-block " alt="...">
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- contentBox -->
+	</div> <!-- wrapper -->
 </div>
+</section> <!-- firstSection-->
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
 
 <!-- SCRIPTS -->
+<!-- Bootstrap -JavaScript Bundle with Popper -->
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+	crossorigin="anonymous"></script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
 <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/97d896e6a8.js" crossorigin="anonymous"></script>
-<!-- Bootstrap icons -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-	<!-- Jquery CDN -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
-	<!-- JS -->
-	<script src="assets/js/main.js"></script>
-	
+<!-- Jquery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
+<!-- JS -->
+<script src="assets/js/main.js"></script>
+<!-- SlideShowJS -->
+<script src="./assets/js/slideshow.js"></script>
+<!-- Scroll-stop -->
+<script src="./assets/js/stop-scroll.js"></script>
+<!-- Back to Top -->
+<script>
+	var mybutton = document.getElementById("myBtn");
+
+	window.onscroll = function () { scrollFunction() };
+
+	function scrollFunction() {
+		if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+			mybutton.style.display = "block";
+		} else {
+			mybutton.style.display = "none";
+		}
+	}
+
+	function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
+
+</script>
+
+
+
 </body>
 </html>
