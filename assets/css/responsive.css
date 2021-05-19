@@ -36,10 +36,19 @@
   .firstSection .contentBox .slider {
     margin-top: 3rem;
     position: unset !important;
-    width: unset !important;
+    width: 90% !important;
   }
   .firstSection .contentBox .sliderBox {
     position: unset !important;
+  }
+  .whatWeDo .contentBox {
+    padding: 0 2rem;
+  }
+  .whatWeDo .contentBox .imgBox {
+    padding: 0 0.5rem;
+  }
+  .whatWeDo .contentBox .imgBox img {
+    width: 100%;
   }
 }
 @media (min-width: 768px) {
@@ -47,6 +56,11 @@
   .container-md,
   .container-sm {
     max-width: 1000px;
+  }
+}
+@media (max-width: 768px) {
+  .firstSection .contentBox .slider {
+    width: 95% !important;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -65,12 +79,17 @@
     flex-direction: column;
     background: #fcfcfc;
   }
+  .header .navigation.active a {
+    font-size: 1.25rem;
+  }
   .menu-button {
     display: inline-block;
   }
   .mobile-menu {
     display: block;
     position: absolute;
+    width: 4rem;
+    height: 4rem;
   }
   .menuDiv {
     display: none !important;
@@ -83,11 +102,42 @@
     text-align: center;
   }
   .firstSection .contentBox .textBox p {
-    font-size: 0.75rem;
+    font-size: 1rem;
     text-align: center;
   }
   .firstSection .contentBox .textBox .btn {
     margin: 0 5rem;
+  }
+  .whatWeDo .contentBox {
+    flex-direction: column !important;
+  }
+  .whatWeDo .title {
+    margin: 8rem 0 4rem;
+    width: 40% !important;
+  }
+  .whatWeDo .contentBox {
+    margin: 3rem 0;
+  }
+  .whatWeDo .contentBox .textBox {
+    text-align: center;
+  }
+  .whatWeDo .contentBox .textBox h4 {
+    margin-top: 1rem;
+  }
+  .whatWeDo .title .imgBox {
+    width: calc(100% - -17rem);
+  }
+  .howWeWork .title {
+    margin: 8rem 0 4rem;
+    width: 50% !important;
+  }
+  .howWeWork .img {
+    margin-bottom: 3rem;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .whatWeDo .title {
+    width: 47% !important;
   }
 }
 @media only screen and (max-width: 360px) {
@@ -100,5 +150,17 @@
   .menu-button span {
     position: relative;
     top: 5px;
+  }
+  .whatWeDo .title {
+    width: 57% !important;
+  }
+  .whatWeDo .title .imgBox {
+    display: none;
+  }
+  .howWeWork .title .imgBox {
+    display: none;
+  }
+  .howWeWork .title {
+    width: 57% !important;
   }
 }

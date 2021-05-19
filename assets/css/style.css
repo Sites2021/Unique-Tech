@@ -139,6 +139,13 @@ html {
 .btn span {
   margin-left: 0.5rem;
 }
+.btn-section {
+  height: 3rem;
+  width: 9rem;
+  background-color: var(--clr-primary-1);
+  box-shadow: -1px 2px 2px 2px rgba(0, 0, 0, 0.25);
+  border: none;
+}
 /* back to top */
 #myBtn {
   width: 3rem;
@@ -168,7 +175,7 @@ html {
 }
 /* basic setup */
 .siteWrapper {
-  background-color: var(--clr-primary-1);
+  /* background-color: var(--clr-primary-1); */
   width: 1040px;
   height: fit-content;
 }
@@ -265,24 +272,6 @@ html {
   width: 100%;
   height: 100%;
 }
-/* .firstSection .contentBox .slider .phone .sliderBox img {
-  width: unset;
-  height: 100%;
-}
-.firstSection .contentBox .slider .comp {
-  position: unset !important;
-}
-.carousel-indicators li {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 1px;
-  text-indent: -999px;
-  cursor: pointer;
-  background-color: #000;
-  border: 1px solid #fff;
-  border-radius: 10px;
-} */
 /* Menu Button  */
 .mobile-menu {
   display: none;
@@ -346,4 +335,52 @@ html {
   height: 3px;
   background-color: var(--clr-white);
   display: block;
+}
+/* whatWeDo Section*/
+.whatWeDo .title {
+  margin: 10rem 0 7rem;
+}
+.whatWeDo .title .imgBox {
+  top: 1.75rem;
+  width: calc(100% - -27rem);
+}
+.titleHeading {
+  background-color: var(--clr-grey-2);
+  color: var(--clr-white);
+  height: 3.5rem;
+  text-transform: uppercase;
+  font-family: "SourceSansPro-Bold";
+  font-size: 1.65rem;
+  border-radius: 5px;
+  padding: 0.6rem 0;
+}
+.whatWeDo .contentBox {
+  margin: 7rem 0;
+}
+.whatWeDo .contentBox h4 {
+  font-size: 1.15rem;
+  font-family: "RobotoBold";
+  text-transform: uppercase;
+}
+.whatWeDo .contentBox p {
+  font-size: 0.95rem;
+  font-family: "RobotoLight";
+}
+/* howWeWork Section */
+.howWeWork {
+  background-color: var(--clr-white-4);
+}
+.howWeWork .title {
+  margin: 7rem 0 7rem;
+}
+.howWeWork .title .imgBox {
+  width: unset !important;
+  top: 1.75rem;
+  left: -5rem;
+}
+.howWeWork .img {
+  margin: 2rem 0 5rem 0;
+}
+.howWeWork .img img {
+  width: 100%;
 }

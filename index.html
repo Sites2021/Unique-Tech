@@ -29,7 +29,7 @@
 
 </head>
 </head>
-<body>
+<body class="d-flex flex-column">
 <section class="container-fluid p-0 firstSection d-flex justify-content-center"> <!-- firstSection-->
 <div class="container-xxl siteWrapper p-0 m-0">
 	<div class="wrapper d-flex justify-content-center p-0 flex-column"> <!-- wrapper -->
@@ -38,7 +38,7 @@
 					<div class="col-lg-3 col-md-12 align-self-start p-0 m-0">
 						<div class="imgBox mx-auto"><img src="./assets/images/logo.png" alt=""></div>
 					</div>
-					<div class="col m-0 p-0 d-flex align-self-center justify-content-end menuDiv mt-2">
+					<div class="col m-0 p-0 d-flex align-self-center justify-content-end menuDiv mt-2"> <!-- menuDiv -->
 						<ul class="my-auto p-0">
 							<li class="mx-auto"><a href="./index.html">home</a></li>
 							<li class="mx-auto"><a href="#">services</a></li>
@@ -53,7 +53,7 @@
 								</ul>
 							</div>
 						</ul>
-					</div>
+					</div> <!-- menuDiv -->
 					<!-- mobile-menu -->
 					<div class="menuToggle mobile-menu" onclick="toggleMenu();">
 						<ul class="menu navigation p-0">
@@ -71,23 +71,20 @@
 			</div>
 		</div> <!-- header -->
 		<div class="contentBox container container-fluid p-0 position-relative d-flex"> <!-- contentBox -->
-			<div class="col-lg-5 p-0 textBox">
+			<div class="col-lg-5 p-0 textBox"> <!-- textBox -->
 				<h2>unique-tech <br>
 				app development</h2>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ducimus et dolorem sed accusantium temporibus tenetur qui reiciendis consequatur corporis facere doloremque hic ipsam quam eum provident quo tempora consequuntur!<br>
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ducimus et dolorem sed accusantium temporibus
 					tenetur.
 				</p>
-				<!-- <a class="btn" href="#"><div class="btnBox d-flex align-items-center"><h3 class="m-0">view more</h3><div class="imgBox me-0 mx-auto"><img src="./assets/images/arrow.png" alt=""></div></div></a> -->
-
 				<a class="btn" href="#">view more<span><i class="fa fa-paper-plane"></i></span>
 				</a>
-
-			</div>
-			<div class="arrowBox position-absolute">
+			</div> <!-- textBox -->
+			<div class="arrowBox position-absolute"> <!-- arrow -->
 				<img src="./assets/images/Shape_7.png" alt="">
 			</div>
-			<div class="slider position-relative w-100">
+			<div class="slider position-relative w-100"> <!-- Carousel -->
 					<div class="sliderBox position-absolute">
 						<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 							<div class="carousel-indicators">
@@ -122,13 +119,96 @@
 							</button>
 						</div>
 					</div>
-				</div>
-				
-			</div>
+				</div> <!-- Carousel -->
 		</div> <!-- contentBox -->
 	</div> <!-- wrapper -->
 </div>
-</section> <!-- firstSection-->
+</section> <!-- firstSection -->
+<section class="container-fluid p-0 whatWeDo d-flex justify-content-center"> <!-- whatWeDo -->
+	<div class="container-xxl siteWrapper p-0 m-0"> <!-- siteWrapper -->
+		<div class="wrapper d-flex justify-content-center p-0 flex-column">
+			<div class="col-4 title text-center mx-auto position-relative">
+				<h2 class="m-0 titleHeading	">what we do</h2>
+				<div class="imgBox position-absolute"><img src="./assets/images/send4.jpg" alt=""></div>
+			</div>
+			<div class="col-md-12 d-flex contentBox d-flex justify-content-center"> <!-- contentBox -->
+				<div class="imgBox col-md-6 col-sm-6 col-xs-12">
+					<img src="assets/images/monitor.png" alt="" />
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="textBox">
+						<h4>web design</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+							ea commodo consequat. <br>
+							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+							pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+							est. laboru
+						</p>
+						<button class="btn-section">View More</button>
+					</div>
+				</div>
+			</div> <!-- contentBox -->
+			<div class="col-md-12 d-flex contentBox d-flex flex-row-reverse justify-content-center"> <!-- contentBox -->
+				<div class="imgBox col-md-6 col-sm-6 col-xs-12">
+					<img src="assets/images/monitor.png" alt="" />
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="textBox">
+						<h4>search engine optimization</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+							ex
+							ea commodo consequat. <br>
+							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+							pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+							id
+							est. laboru
+						</p>
+						<button class="btn-section">View More</button>
+					</div>
+				</div>
+			</div> <!-- contentBox -->
+			<div class="col-md-12 d-flex contentBox d-flex justify-content-center"> <!-- contentBox -->
+				<div class="imgBox col-md-6 col-sm-6 col-xs-12">
+					<img src="assets/images/monitor.png" alt="" />
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="textBox">
+						<h4>affiliate marketing</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+							ex
+							ea commodo consequat. <br>
+							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+							pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+							id
+							est. laboru
+						</p>
+						<button class="btn-section">View More</button>
+					</div>
+				</div>
+			</div> <!-- contentBox -->
+		</div>
+	</div> <!-- siteWrapper -->
+</section> <!-- whatWeDo -->
+<section class="container-fluid p-0 howWeWork d-flex justify-content-center"> <!-- howWeWork -->
+	<div class="container-xxl siteWrapper p-0 m-0"> <!-- siteWrapper -->
+		<div class="wrapper d-flex justify-content-center p-0 flex-column"> <!-- wrapper -->
+			<div class="col-4 title text-center mx-auto position-relative"> <!-- title -->
+				<h2 class="m-0 titleHeading">how we work</h2>
+				<div class="imgBox position-absolute"><img src="./assets/images/send664.jpg" alt=""></div>
+			</div> <!-- title -->
+			<div class="img col-md-12">
+				<img src="./assets/images/Vector Smart Object-bgi.jpg" alt="">
+			</div>
+		</div> <!-- wrapper -->
+	</div> <!-- siteWrapper -->
+</section> <!-- whatWeDo -->
+
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
 
 <!-- SCRIPTS -->
