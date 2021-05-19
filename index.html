@@ -38,7 +38,7 @@
 					<div class="col-lg-3 col-md-12 align-self-start p-0 m-0">
 						<div class="imgBox mx-auto"><img src="./assets/images/logo.png" alt=""></div>
 					</div>
-					<div class="col m-0 p-0 d-flex align-self-center justify-content-end menuDiv">
+					<div class="col m-0 p-0 d-flex align-self-center justify-content-end menuDiv mt-2">
 						<ul class="my-auto p-0">
 							<li class="mx-auto"><a href="./index.html">home</a></li>
 							<li class="mx-auto"><a href="#">services</a></li>
@@ -47,6 +47,11 @@
 							<li class="mx-auto"><a href="#">academic</a></li>
 							<li class="mx-auto"><a href="#">blog</a></li>
 							<li class="mx-auto"><a href="#">contact us</a></li>
+							<div class="contact-number d-flex justify-content-end">
+								<ul>
+									<li class="">(+001122334)</li>
+								</ul>
+							</div>
 						</ul>
 					</div>
 					<!-- mobile-menu -->
@@ -66,45 +71,59 @@
 			</div>
 		</div> <!-- header -->
 		<div class="contentBox container container-fluid p-0 position-relative d-flex"> <!-- contentBox -->
-			<div class="col-5 p-0 textBox">
+			<div class="col-lg-5 p-0 textBox">
 				<h2>unique-tech <br>
 				app development</h2>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ducimus et dolorem sed accusantium temporibus tenetur qui reiciendis consequatur corporis facere doloremque hic ipsam quam eum provident quo tempora consequuntur!<br>
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ducimus et dolorem sed accusantium temporibus
 					tenetur.
 				</p>
-				<a class="btn" href="#"><div class="btnBox d-flex align-items-center"><h3 class="m-0">view more</h3><div class="imgBox me-0 mx-auto"><img src="./assets/images/arrow.png" alt=""></div></div></a>
+				<!-- <a class="btn" href="#"><div class="btnBox d-flex align-items-center"><h3 class="m-0">view more</h3><div class="imgBox me-0 mx-auto"><img src="./assets/images/arrow.png" alt=""></div></div></a> -->
+
+				<a class="btn" href="#">view more<span><i class="fa fa-paper-plane"></i></span>
+				</a>
+
 			</div>
 			<div class="arrowBox position-absolute">
 				<img src="./assets/images/Shape_7.png" alt="">
 			</div>
-			<div class="slider position-relative">
-				<div class="comp position-absolute">
-					<div class="imgBox"><img src="./assets/images/MacBook_Pro_RetinaLayer.jpg" alt=""></div>
+			<div class="slider position-relative w-100">
 					<div class="sliderBox position-absolute">
-						<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+						<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-indicators">
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+									aria-current="true" aria-label="Slide 1"></button>
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+									aria-label="Slide 2"></button>
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+									aria-label="Slide 3"></button>
+							</div>
+						
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img src="./assets/images/Layer 6.jpg" class="d-block " alt="...">
+									<img src="./assets/images/slider-img.png" class="d-block w-100" alt="...">
 								</div>
 								<div class="carousel-item">
-									<img src="./assets/images/Layer 6.jpg" class="d-block " alt="...">
+									<img src="./assets/images/slider-img.png" class="d-block w-100" alt="...">
 								</div>
 								<div class="carousel-item">
-									<img src="./assets/images/Layer 6.jpg" class="d-block " alt="...">
+									<img src="./assets/images/slider-img.png" class="d-block w-100" alt="...">
 								</div>
 							</div>
-							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+								data-bs-slide="prev">
 								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 								<span class="visually-hidden">Previous</span>
 							</button>
-							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+								data-bs-slide="next">
 								<span class="carousel-control-next-icon" aria-hidden="true"></span>
 								<span class="visually-hidden">Next</span>
 							</button>
 						</div>
 					</div>
 				</div>
+				
 			</div>
 		</div> <!-- contentBox -->
 	</div> <!-- wrapper -->
