@@ -545,6 +545,9 @@ html {
   width: 37%;
 }
 /* history */
+.history {
+  background-color: var(--clr-white-6);
+}
 .history .imgBox img {
   width: 100%;
 }
