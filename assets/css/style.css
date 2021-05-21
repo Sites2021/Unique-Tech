@@ -184,6 +184,32 @@ html {
   height: fit-content;
   position: relative;
 }
+.p-content {
+  font-size: 0.95rem;
+  font-family: "RobotoLight";
+}
+.margin-7-0 {
+  margin: 7rem 0;
+}
+.rightArrow {
+  top: 1.75rem;
+  width: calc(100% - -27rem);
+}
+.leftArrow {
+  width: unset !important;
+  top: 1.75rem;
+  left: -5rem;
+}
+.titleHeading {
+  background-color: var(--clr-grey-2);
+  color: var(--clr-white);
+  height: 3.5rem;
+  text-transform: uppercase;
+  font-family: "SourceSansPro-Bold";
+  font-size: 1.65rem;
+  border-radius: 5px;
+  padding: 0.6rem 0;
+}
 /* Header */
 .header {
   z-index: 10;
@@ -340,31 +366,13 @@ html {
 .whatWeDo .title {
   margin: 10rem 0 7rem;
 }
-.whatWeDo .title .imgBox {
-  top: 1.75rem;
-  width: calc(100% - -27rem);
-}
-.titleHeading {
-  background-color: var(--clr-grey-2);
-  color: var(--clr-white);
-  height: 3.5rem;
-  text-transform: uppercase;
-  font-family: "SourceSansPro-Bold";
-  font-size: 1.65rem;
-  border-radius: 5px;
-  padding: 0.6rem 0;
-}
-.whatWeDo .contentBox {
-  margin: 7rem 0;
-}
 .whatWeDo .contentBox h4 {
   font-size: 1.15rem;
   font-family: "RobotoBold";
   text-transform: uppercase;
 }
-.whatWeDo .contentBox p {
-  font-size: 0.95rem;
-  font-family: "RobotoLight";
+.whatWeDo .contentBox .justify-content-end img {
+  height: fit-content;
 }
 /* howWeWork Section */
 .howWeWork {
@@ -373,14 +381,166 @@ html {
 .howWeWork .title {
   margin: 7rem 0 7rem;
 }
-.howWeWork .title .imgBox {
-  width: unset !important;
-  top: 1.75rem;
-  left: -5rem;
-}
 .howWeWork .img {
   margin: 2rem 0 5rem 0;
 }
 .howWeWork .img img {
   width: 100%;
+}
+/* features */
+.features {
+  margin-top: 6rem;
+}
+.features .h4-Content {
+  font-size: 1.15rem;
+  font-family: "RobotoRegular";
+  margin-bottom: -0.5rem;
+}
+.features .h4-Content span {
+  text-transform: capitalize;
+}
+.features .contentBox .box {
+  margin: 2.5rem 0;
+  padding: 1rem 0.5rem;
+}
+.features-content .doc {
+  margin-left: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+.features-content .fa {
+  font-size: 1.7rem;
+}
+.features-content p {
+  margin-left: 2.5rem;
+}
+.features-content .imgBox {
+  width: 2.5rem;
+  height: 2rem;
+}
+.features .contentBox .box:hover {
+  background-color: var(--clr-primary-3);
+}
+.features .contentBox .box:hover i {
+  color: var(--clr-white);
+}
+/* packages */
+.packages .titleHeading {
+  height: fit-content;
+}
+
+.packages .package-item li {
+  color: var(--clr-grey-6);
+  font-family: "RobotoRegular";
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+  padding: 0.75rem 0;
+  height: 2.75rem;
+}
+.packages .contentBox .standard .package-bottom-area {
+  padding: 3rem 0 2.25rem 0;
+}
+.padding {
+  padding: 2rem;
+}
+.packages .box .basic h5 {
+  color: var(--clr-grey-12);
+  font-family: "RobotoRegular";
+  font-size: 1.5rem;
+  text-align: center;
+}
+.packages .boxStandard {
+  border-color: var(--clr-primary-2);
+  border-style: none solid none solid;
+  border-width: 1px;
+  height: 19rem;
+}
+.packages .package-item .border {
+  border-color: var(--clr-primary-2) !important;
+  border-style: none none solid none !important;
+  border-width: 1px !important;
+}
+.packages .margin {
+  margin: 11rem 6rem;
+}
+.packages .contentBox h5 {
+  height: 3rem;
+  font-family: "RobotoRegular";
+  font-size: 1.5rem;
+  text-align: center;
+}
+.packages .contentBox .basic h5 {
+  color: var(--clr-grey-12);
+}
+.packages .contentBox .standard h5 {
+  line-height: 0rem;
+  color: var(--clr-orange);
+  font-family: "RobotoRegular";
+  font-size: 1.75rem;
+  text-align: center;
+}
+.packages .contentBox .premium h5 {
+  color: var(--clr-primary-3);
+}
+.packages .contentBox .basic .package-bottom-area h3,
+.packages .contentBox .premium .package-bottom-area h3 {
+  color: var(--clr-grey-11);
+  font-family: "RobotoRegular";
+  font-size: 2rem;
+  font-weight: 500;
+}
+.packages .contentBox .premium .package-bottom-area h3 {
+  color: var(--clr-primary-3);
+}
+.packages .contentBox .basic .package-bottom-area h3 span,
+.packages .contentBox .premium .package-bottom-area h3 span {
+  font-size: 1rem;
+}
+.packages .contentBox .basic .btn-packages,
+.packages .contentBox .premium .btn-packages {
+  height: 2.8rem;
+  width: 12rem;
+  padding: 1.4rem 0.25rem;
+  color: var(--clr-white);
+  font-family: "RobotoBold";
+  font-size: 0.95rem;
+  background-color: var(--clr-grey-11);
+  box-shadow: -1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+.packages .contentBox .premium .btn-packages {
+  background-color: var(--clr-primary-3);
+}
+.packages .contentBox .standard li {
+  color: var(--clr-grey-1);
+  font-family: "RobotoRegular";
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+}
+.packages .contentBox .standard .package-bottom-area h3 {
+  color: var(--clr-orange);
+  font-family: "RobotoRegular";
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 0;
+}
+.packages .contentBox .standard .package-bottom-area h3 span {
+  font-size: 1.25rem;
+}
+.packages .contentBox .standard .btn-packages {
+  height: 56px;
+  width: 215px;
+  background-color: var(--clr-orange);
+  box-shadow: -1px 2px 0 rgba(0, 0, 0, 0.1);
+  font-family: "OpenSans-Regular";
+  padding: 1.75rem 1rem;
+}
+.packages .contentBox .boxBasic,
+.packages .contentBox .boxPremium {
+  width: 31.5%;
+}
+.packages .contentBox .boxStandard {
+  width: 37%;
 }
