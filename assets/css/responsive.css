@@ -55,6 +55,22 @@
   .whatWeDo .contentBox .imgBox img {
     width: 100%;
   }
+  .history .wrapper {
+    flex-direction: column-reverse;
+  }
+  .history .text-start {
+    text-align: center !important;
+  }
+  .history .text-start .titleHeading {
+    margin: 1rem auto;
+  }
+  .history .text-start .p-content {
+    text-align: center;
+    width: fit-content;
+  }
+  .history .imgContainer .imgBox {
+    padding: 0 !important;
+  }
 }
 @media (min-width: 768px) {
   .container,
@@ -90,6 +106,18 @@
   }
   .packages .contentBox .boxStandard {
     width: 100%;
+  }
+  .history .margin {
+    margin: 0rem 0.5rem;
+  }
+  .history .text-start .titleHeading {
+    margin: 3rem auto;
+  }
+  .history .textBox .p-content {
+    margin-bottom: 4rem;
+  }
+  .history .imgContainer {
+    margin: 4rem;
   }
 }
 @media only screen and (max-width: 576px) {

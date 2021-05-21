@@ -462,7 +462,7 @@ html {
   border-width: 1px !important;
 }
 .packages .margin {
-  margin: 11rem 6rem;
+  margin: 11rem 6rem 3rem 6rem;
 }
 .packages .contentBox h5 {
   height: 3rem;
@@ -543,4 +543,35 @@ html {
 }
 .packages .contentBox .boxStandard {
   width: 37%;
+}
+/* history */
+.history .imgBox img {
+  width: 100%;
+}
+.history .titleHeading {
+  width: fit-content;
+  padding: 0.6rem 1rem;
+  letter-spacing: 3px;
+  margin-bottom: 1.75rem;
+}
+.history .p-content {
+  color: var(--clr-grey-1);
+  /* font-family: "RobotoRegular"; */
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 33px;
+  width: 26rem;
+}
+.history .margin {
+  margin: 6rem 0.5rem;
+}
+.history .btn-section {
+  text-transform: uppercase;
+  color: #3a3a3a;
+  font-family: "OpenSans-Regular";
+  font-size: 0.75rem;
+  font-weight: bold;
+  width: fit-content;
+  padding: 0 2rem;
 }
