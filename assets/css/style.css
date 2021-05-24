@@ -403,17 +403,17 @@ html {
   margin: 2.5rem 0;
   padding: 1rem 0.5rem;
 }
-.features-content .doc {
+.features .features-content .doc {
   margin-left: 1.2rem;
   margin-bottom: 0.8rem;
 }
-.features-content .fa {
+.features .features-content .fa {
   font-size: 1.7rem;
 }
-.features-content p {
+.features .features-content p {
   margin-left: 2.5rem;
 }
-.features-content .imgBox {
+.features .features-content .imgBox {
   width: 2.5rem;
   height: 2rem;
 }
@@ -666,8 +666,15 @@ html {
   padding: 0 2rem;
 }
 /* projects */
-.projects .siteWrapper {
+.projects {
+  margin-bottom: 6rem;
+}
+/* .projects .siteWrapper {
   width: 830px;
+} */
+.projects .row {
+  background-color: var(--clr-white-8);
+  padding: 6rem 5rem;
 }
 .projects .title {
   margin: 5rem 0 12rem;
@@ -688,8 +695,6 @@ html {
   font-family: "RobotoRegular";
   font-size: 1rem;
   font-weight: bold;
-  /* letter-spacing: 0;
-  line-height: 0; */
   text-transform: uppercase;
   margin-top: 1.4rem;
 }
@@ -698,4 +703,31 @@ html {
 }
 .projects .box {
   margin: 1rem 0;
+}
+/* team */
+.team .siteWrapper {
+  width: 1300px;
+}
+.team .box {
+  width: 13%;
+  padding: 4rem 0 0rem;
+}
+.team .contentBox {
+  background-color: var(--clr-primary-1);
+  margin: 9rem 0;
+}
+.team .contentBox h4 {
+  color: var(--clr-white-1);
+  font-family: "RobotoRegular";
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.team .contentBox p {
+  color: var(--clr-white-1);
+  font-family: "RobotoLight";
+  font-size: 1rem;
+  font-weight: 100 !important;
+  text-transform: uppercase;
+  text-align: center;
 }

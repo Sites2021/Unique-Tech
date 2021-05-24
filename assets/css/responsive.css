@@ -7,6 +7,9 @@
   .features .row {
     margin: 0;
   }
+  .team .box {
+    width: -webkit-fill-available;
+  }
 }
 @media only screen and (max-width: 992px) {
   .header .imgBox {
@@ -128,6 +131,9 @@
   .packages .contentBox2 {
     display: flex !important;
     margin: 6rem 0 3rem;
+  }
+  .team .titleHeading {
+    height: fit-content;
   }
 }
 @media only screen and (max-width: 576px) {
