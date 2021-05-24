@@ -658,10 +658,44 @@ html {
 }
 .history .btn-section {
   text-transform: uppercase;
-  color: #3a3a3a;
+  color: var(--clr-grey-3);
   font-family: "OpenSans-Regular";
   font-size: 0.75rem;
   font-weight: bold;
   width: fit-content;
   padding: 0 2rem;
+}
+/* projects */
+.projects .siteWrapper {
+  width: 830px;
+}
+.projects .title {
+  margin: 5rem 0 12rem;
+}
+.projects .titleHeading {
+  padding: 0.6rem 0.5rem;
+}
+.projects .rightArrow {
+  top: 1.75rem;
+  width: calc(100% - -32rem);
+}
+.projects .features-content .imgBox {
+  height: 8.2rem;
+  width: fit-content;
+}
+.projects .features-content h4 {
+  color: var(--clr-grey-5);
+  font-family: "RobotoRegular";
+  font-size: 1rem;
+  font-weight: bold;
+  /* letter-spacing: 0;
+  line-height: 0; */
+  text-transform: uppercase;
+  margin-top: 1.4rem;
+}
+.projects .features-content .h4-row2 {
+  margin-top: 3rem;
+}
+.projects .box {
+  margin: 1rem 0;
 }

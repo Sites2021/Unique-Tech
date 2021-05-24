@@ -80,6 +80,9 @@
   .history .imgContainer {
     margin: 4rem;
   }
+  .projects .title {
+    margin: 2rem 0 5rem;
+  }
 }
 @media (min-width: 768px) {
   .container,
@@ -200,6 +203,15 @@
   }
   .features .title {
     width: 45%;
+  }
+  .projects .rightArrow {
+    display: none;
+  }
+  .projects .titleHeading {
+    width: 85%;
+    height: fit-content;
+    text-align: center;
+    margin: auto !important;
   }
 }
 @media only screen and (max-width: 420px) {
