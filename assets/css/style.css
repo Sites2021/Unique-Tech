@@ -91,6 +91,7 @@ html {
   --clr-grey-10: #252525;
   --clr-grey-11: #a5a5a5;
   --clr-grey-12: #8d8d8d;
+  --clr-grey-transparent: #6a6a6a77;
   --clr-black: #000000;
   --clr-black-1: #0c0d11;
   --clr-orange: #f26c4f;
@@ -674,7 +675,7 @@ html {
 } */
 .projects .row {
   background-color: var(--clr-white-8);
-  padding: 6rem 5rem;
+  padding: 6rem 4.5rem;
 }
 .projects .title {
   margin: 5rem 0 12rem;
@@ -722,6 +723,7 @@ html {
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
+  margin-top: 1rem;
 }
 .team .contentBox p {
   color: var(--clr-white-1);
