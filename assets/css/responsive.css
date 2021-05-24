@@ -119,6 +119,13 @@
   .history .margin {
     margin: 4rem 0.5rem;
   }
+  .packages .contentBox {
+    display: none;
+  }
+  .packages .contentBox2 {
+    display: flex !important;
+    margin: 6rem 0 3rem;
+  }
 }
 @media only screen and (max-width: 576px) {
   .header .navigation {

@@ -544,6 +544,93 @@ html {
 .packages .contentBox .boxStandard {
   width: 37%;
 }
+.packages .contentBox2 {
+  display: none !important;
+  font-family: "RobotoRegular";
+}
+.packages .contentBox2 .card {
+  padding: 0 3.5rem;
+  margin: 2rem 0 5rem;
+}
+.packages .contentBox2 li {
+  list-style: none;
+}
+.packages .contentBox2 .card:last-child {
+  margin-bottom: 0 !important;
+}
+/* CARDS STYLE */
+.packages .contentBox2 .card-header {
+  text-transform: capitalize;
+}
+.packages .contentBox2 .border-secondary .card-header {
+  font-size: 1.5rem;
+  color: var(--clr-grey-11);
+}
+.packages .contentBox2 .border-secondary li {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+.packages .contentBox2 .border-secondary h5 {
+  font-size: 2rem;
+}
+.packages .contentBox2 .border-secondary h5 span {
+  font-size: 1rem;
+}
+.packages .contentBox2 .border-secondary .btn-secondary {
+  background-color: var(--clr-grey-11);
+}
+.packages .contentBox2 .border-danger .card-header {
+  font-size: 1.75rem;
+  color: var(--clr-orange);
+}
+.packages .contentBox2 .border-danger li {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.packages .contentBox2 .border-danger h5 {
+  font-size: 2.5rem;
+  color: var(--clr-orange);
+}
+.packages .contentBox2 .border-danger h5 span {
+  font-size: 1rem;
+}
+.packages .contentBox2 .border-danger .btn-danger {
+  background-color: var(--clr-orange);
+}
+.packages .contentBox2 .border-warning .card-header {
+  font-size: 1.5rem;
+  color: var(--clr-primary-3);
+}
+.packages .contentBox2 .border-warning li {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+.packages .contentBox2 .border-warning h5 {
+  font-size: 2rem;
+  color: var(--clr-primary-3);
+}
+.packages .contentBox2 .border-warning h5 span {
+  font-size: 1rem;
+}
+.packages .contentBox2 .border-danger .btn-warning {
+  background-color: var(--clr-primary-3);
+}
+/* CARDS STYLE */
+.packages .contentBox2 .btnPackages {
+  width: 10rem;
+  padding: 1rem 1.25rem;
+  line-height: 0;
+  text-transform: capitalize;
+  display: inline-block;
+  transition: all 0.3s ease;
+  border: none;
+  text-align: center;
+  color: var(--clr-white-7);
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  box-shadow: -1px 2px 5px 0px rgb(0 0 0 / 25%);
+  margin-bottom: 1rem;
+}
 /* history */
 .history {
   background-color: var(--clr-white-6);
