@@ -668,20 +668,17 @@ html {
 }
 /* projects */
 .projects {
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
 }
-/* .projects .siteWrapper {
-  width: 830px;
-} */
 .projects .row {
   background-color: var(--clr-white-8);
   padding: 6rem 4.5rem;
 }
 .projects .title {
-  margin: 5rem 0 12rem;
+  margin: 7rem 0;
 }
 .projects .titleHeading {
-  padding: 0.6rem 0.5rem;
+  padding: 0.6rem 1.5rem;
 }
 .projects .rightArrow {
   top: 1.75rem;
@@ -732,4 +729,28 @@ html {
   font-weight: 100 !important;
   text-transform: uppercase;
   text-align: center;
+}
+/* updates */
+.updates .contentBox .p-content {
+  color: var(--clr-grey-1);
+  font-family: "RobotoRegular";
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+.updates .contentBox .btn-section {
+  width: fit-content;
+  padding: 0 2.25rem;
+  font-family: "OpenSans-Bold";
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.updates .contentBox .imgBox img {
+  width: 100%;
+  height: fit-content;
+}
+.updates .title {
+  margin-bottom: 2rem;
 }

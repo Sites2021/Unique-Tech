@@ -8,10 +8,13 @@
     margin: 0;
   }
   .features .margin-7-0 {
-    margin: 7rem 1rem;
+    margin: 5rem 1rem;
   }
   .team .box {
     width: 50%;
+  }
+  .updates .textBox {
+    margin: 0 2rem;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -68,7 +71,7 @@
     text-align: center !important;
   }
   .history .text-start .titleHeading {
-    margin: 1rem auto;
+    margin: 1rem auto 7rem;
   }
   .history .text-start .p-content {
     text-align: center;
@@ -76,9 +79,6 @@
   }
   .history .imgContainer .imgBox {
     padding: 0 !important;
-  }
-  .history .text-start .titleHeading {
-    margin: 3rem auto;
   }
   .history .textBox .p-content {
     margin-bottom: 4rem;
@@ -88,6 +88,10 @@
   }
   .projects .title {
     margin: 2rem 0 5rem;
+  }
+  .updates .titleHeading {
+    height: fit-content;
+    padding: 0.6rem 1rem;
   }
 }
 @media (min-width: 768px) {
@@ -138,7 +142,19 @@
   .team .titleHeading {
     height: fit-content;
   }
+  .updates .contentBox {
+    flex-direction: column !important;
+  }
+  .updates .contentBox .p-content {
+    margin: 5rem 0rem;
+  }
+  .updates .contentBox .imgBox {
+    margin: 0 1rem;
+    justify-content: center !important;
+    width: 95%;
+  }
 }
+
 @media only screen and (max-width: 576px) {
   .header .navigation {
     display: none;
@@ -204,7 +220,7 @@
     width: calc(100% - -17rem);
   }
   .howWeWork .title {
-    margin: 8rem 0 4rem;
+    margin: 5rem 0;
     width: 50% !important;
   }
   .howWeWork .img {
@@ -212,6 +228,9 @@
   }
   .features .title {
     width: 45%;
+  }
+  .history .titleHeading {
+    letter-spacing: 0;
   }
   .projects .rightArrow {
     display: none;
@@ -225,6 +244,9 @@
   .team .box {
     width: -webkit-fill-available;
   }
+  .updates .titleHeading {
+    padding: 0.6rem 0.5rem;
+  }
 }
 @media only screen and (max-width: 420px) {
   .whatWeDo .title {
@@ -232,6 +254,9 @@
   }
   .features .title {
     width: 55%;
+  }
+  .howWeWork .titleHeading {
+    height: fit-content;
   }
 }
 @media only screen and (max-width: 360px) {
