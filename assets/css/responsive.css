@@ -16,6 +16,9 @@
   .updates .textBox {
     margin: 0 2rem;
   }
+  .updates .hireUs {
+    width: 90%;
+  }
 }
 @media only screen and (max-width: 992px) {
   .header .imgBox {
@@ -93,6 +96,9 @@
     height: fit-content;
     padding: 0.6rem 1rem;
   }
+  .updates .hireUs h4 {
+    letter-spacing: 0;
+  }
 }
 @media (min-width: 768px) {
   .container,
@@ -152,6 +158,22 @@
     margin: 0 1rem;
     justify-content: center !important;
     width: 95%;
+  }
+  .updates .hireUs .textBox {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .updates .hireUs .textBox .box {
+    width: 100% !important;
+    height: 4rem;
+    justify-content: center !important;
+  }
+  .updates .hireUs .textBox .box .h4-hireUs {
+    margin: 0;
+  }
+  .updates .hireUs .textBox .box .btn-hireUs {
+    margin-right: 0;
+    margin-bottom: 1rem !important;
   }
 }
 
