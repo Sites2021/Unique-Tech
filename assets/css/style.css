@@ -815,6 +815,9 @@ html {
 .footer {
   background-color: var(--clr-grey-1);
 }
+.footer .wrapper {
+  margin-left: 0.75rem;
+}
 .footer .contentDiv {
   padding: 0.75rem 0rem;
   margin-left: 0.15rem;
