@@ -19,6 +19,10 @@
   .updates .hireUs {
     width: 90%;
   }
+  .footer .contentDiv {
+    padding: 2.5rem;
+    margin-left: 1rem;
+  }
 }
 @media only screen and (max-width: 992px) {
   .header .imgBox {
@@ -90,7 +94,7 @@
     margin: 4rem;
   }
   .projects .title {
-    margin: 2rem 0 5rem;
+    margin: 5rem 0;
   }
   .updates .titleHeading {
     height: fit-content;
@@ -98,6 +102,9 @@
   }
   .updates .hireUs h4 {
     letter-spacing: 0;
+  }
+  .footer .contentDiv {
+    margin-left: 1rem;
   }
 }
 @media (min-width: 768px) {
@@ -174,6 +181,9 @@
   .updates .hireUs .textBox .box .btn-hireUs {
     margin-right: 0;
     margin-bottom: 1rem !important;
+  }
+  .footer .contentDiv {
+    margin-left: 0rem;
   }
 }
 
@@ -269,6 +279,9 @@
   .updates .titleHeading {
     padding: 0.6rem 0.5rem;
   }
+  .footer .contentDiv {
+    padding: 2.5rem 2rem;
+  }
 }
 @media only screen and (max-width: 420px) {
   .whatWeDo .title {
@@ -279,6 +292,13 @@
   }
   .howWeWork .titleHeading {
     height: fit-content;
+  }
+  .footer .footerBottom {
+    margin: 0;
+    flex-direction: column;
+  }
+  .footer .footerBottom .ms-2 {
+    margin-left: 0 !important;
   }
 }
 @media only screen and (max-width: 360px) {

@@ -681,7 +681,7 @@ html {
   padding: 6rem 4.5rem;
 }
 .projects .title {
-  margin: 7rem 0;
+  margin: 9rem 0px;
 }
 .projects .titleHeading {
   padding: 0.6rem 1.5rem;
@@ -718,7 +718,7 @@ html {
 }
 .team .contentBox {
   background-color: var(--clr-primary-1);
-  margin: 9rem 0;
+  margin: 6rem 0 3rem;
 }
 .team .contentBox h4 {
   color: var(--clr-white-1);
@@ -736,7 +736,13 @@ html {
   text-transform: uppercase;
   text-align: center;
 }
+.team .row.d-flex.justify-content-center {
+  padding-bottom: 2rem;
+}
 /* updates */
+.updates {
+  margin-top: 6rem;
+}
 .updates .contentBox .p-content {
   color: var(--clr-grey-1);
   font-family: "RobotoRegular";
@@ -804,4 +810,62 @@ html {
 }
 .updates .margin-7-0 {
   margin: 7rem 0 9rem;
+}
+/* Footer */
+.footer {
+  background-color: var(--clr-grey-1);
+}
+.footer .contentDiv {
+  padding: 0.75rem 0rem;
+  margin-left: 0.15rem;
+}
+.footer .contentBox h4 {
+  color: var(--clr-white-3);
+  font-family: "RobotoMedium";
+  font-size: 1.15rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 2rem 0;
+}
+.footer .contentBox li {
+  color: var(--clr-grey-7);
+  font-family: "RobotoLight";
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+.footer .contentBox ul {
+  padding: 0;
+}
+
+.footer .contentBox a {
+  list-style: none;
+  text-decoration: none;
+}
+.footer .contentBox2 {
+  height: 4rem;
+}
+.footer .contentBox2 .box {
+  width: 2.6rem;
+  height: 2.6rem;
+  margin: 0 0.15rem;
+  background-color: var(--clr-primary-1);
+  border-radius: 2px;
+}
+.footer .contentBox2 .box i {
+  color: var(--clr-white);
+}
+.footer .contentBox2 .box a {
+  padding: 0.75rem;
+}
+.footer .contentBox2 .box img {
+  width: 90%;
+}
+.footer .footerBottom p {
+  color: var(--clr-grey-7);
+  font-family: "RobotoLight";
+  font-size: 1rem;
+  font-weight: 300;
 }
