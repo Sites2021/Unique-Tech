@@ -113,7 +113,7 @@
     margin: 4rem;
   }
   .projects .title {
-    margin: 5rem 0 0;
+    margin: 5rem 0;
   }
   .updates .titleHeading {
     height: fit-content;
@@ -176,6 +176,9 @@
   .packages .contentBox2 {
     display: flex !important;
     margin: 6rem 0 3rem;
+  }
+  .projects .titleHeading {
+    margin: 5rem 0 !important;
   }
   .team .titleHeading {
     height: fit-content;
@@ -325,7 +328,7 @@
     width: 85%;
     height: fit-content;
     text-align: center;
-    margin: auto !important;
+    margin: 5rem auto !important;
   }
   .team .box {
     width: 50%;
