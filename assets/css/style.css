@@ -244,6 +244,9 @@ html {
 .header img {
   width: 100%;
 }
+.header .navigation li {
+  padding: 1rem;
+}
 .firstSection .contentBox .textBox h2 {
   color: var(--clr-white-4);
   font-family: "RobotoBold";
@@ -556,7 +559,7 @@ html {
   font-family: "RobotoRegular";
 }
 .packages .contentBox2 .card {
-  padding: 0 3.5rem;
+  padding: 0 2.5rem;
   margin: 2rem 0 5rem;
 }
 .packages .contentBox2 li {
