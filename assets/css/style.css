@@ -43,7 +43,7 @@
 }
 
 /* Fonts */
-body,
+.body,
 html {
   width: 100vw !important;
   max-width: 100vw;
@@ -718,7 +718,7 @@ html {
 }
 .team .contentBox {
   background-color: var(--clr-primary-1);
-  margin: 6rem 0 3rem;
+  margin: 8rem 0 3rem;
 }
 .team .contentBox h4 {
   color: var(--clr-white-1);

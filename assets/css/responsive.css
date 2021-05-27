@@ -8,10 +8,10 @@
     margin: 0;
   }
   .features .margin-7-0 {
-    margin: 5rem 1rem;
+    margin: 4rem 1rem;
   }
   .team .box {
-    width: 50%;
+    width: 28%;
   }
   .updates .textBox {
     margin: 0 2rem;
@@ -62,6 +62,15 @@
   .firstSection .contentBox .sliderBox {
     position: unset !important;
   }
+  .whatWeDo .title {
+    margin: 6rem 0;
+  }
+  .whatWeDo .margin-7-0 {
+    margin: 0 0 6rem;
+  }
+  .howWeWork .title {
+    margin: 0rem 0 6rem;
+  }
   .whatWeDo .contentBox {
     padding: 0 2rem;
   }
@@ -71,8 +80,17 @@
   .whatWeDo .contentBox .imgBox img {
     width: 100%;
   }
+  .howWeWork .img {
+    margin: 2rem 0 0rem 0;
+  }
+  .packages .margin {
+    margin: 8rem 6rem 3rem 6rem;
+  }
   .history .wrapper {
     flex-direction: column-reverse;
+  }
+  .history .margin {
+    margin: 0rem 0.5rem;
   }
   .history .text-start {
     text-align: center !important;
@@ -81,8 +99,9 @@
     margin: 1rem auto 7rem;
   }
   .history .text-start .p-content {
-    text-align: center;
+    text-align: start;
     width: fit-content;
+    margin: 0 4rem;
   }
   .history .imgContainer .imgBox {
     padding: 0 !important;
@@ -94,7 +113,7 @@
     margin: 4rem;
   }
   .projects .title {
-    margin: 5rem 0;
+    margin: 5rem 0 0;
   }
   .updates .titleHeading {
     height: fit-content;
@@ -145,6 +164,12 @@
   .history .margin {
     margin: 4rem 0.5rem;
   }
+  .projects .title {
+    margin: 0;
+  }
+  .projects .row {
+    padding: 6rem 4.5rem 0;
+  }
   .packages .contentBox {
     display: none;
   }
@@ -155,11 +180,21 @@
   .team .titleHeading {
     height: fit-content;
   }
+  .team .contentBox {
+    margin: 6rem 0 0rem;
+  }
   .updates .contentBox {
     flex-direction: column !important;
   }
   .updates .contentBox .p-content {
     margin: 5rem 0rem;
+  }
+  .updates .margin-7-0 {
+    margin: 4rem 0;
+  }
+  .updates .col-md-6 {
+    flex: 0 0 auto;
+    width: 90%;
   }
   .updates .contentBox .imgBox {
     margin: 0 1rem;
@@ -235,6 +270,10 @@
   .whatWeDo .contentBox {
     flex-direction: column !important;
   }
+  .features .contentBox .box {
+    margin: 0.5rem 0;
+    padding: 1rem 0.5rem;
+  }
   .whatWeDo .title {
     margin: 8rem 0 4rem;
     width: 40% !important;
@@ -243,7 +282,7 @@
     margin: 3rem 0;
   }
   .whatWeDo .contentBox .textBox {
-    text-align: center;
+    text-align: start;
   }
   .whatWeDo .contentBox .textBox h4 {
     margin-top: 1rem;
@@ -264,6 +303,21 @@
   .history .titleHeading {
     letter-spacing: 0;
   }
+  .projects .features-content .imgBox {
+    height: 6.2rem;
+    width: fit-content;
+  }
+  .projects .row > * {
+    flex-shrink: 0;
+    width: 50%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+  }
+  .projects .row {
+    padding: 6rem 1rem 0;
+  }
   .projects .rightArrow {
     display: none;
   }
@@ -274,7 +328,10 @@
     margin: auto !important;
   }
   .team .box {
-    width: -webkit-fill-available;
+    width: 50%;
+  }
+  .team .row.d-flex.justify-content-center {
+    padding: 2rem 1rem;
   }
   .updates .titleHeading {
     padding: 0.6rem 0.5rem;
@@ -292,6 +349,9 @@
   }
   .howWeWork .titleHeading {
     height: fit-content;
+  }
+  .updates .margin-7-0 {
+    margin: 3rem 0.5rem;
   }
   .footer .footerBottom {
     margin: 0;

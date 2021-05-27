@@ -21,638 +21,785 @@
 
 	<link rel="stylesheet" href="./assets/css/font-awesome.min.css">
 
+	<link rel="stylesheet" href="./assets/css/loader.css">
+
 </head>
 </head>
-<body class="d-flex flex-column">
-<section class="container-fluid p-0 firstSection d-flex justify-content-center"> <!-- firstSection-->
-<div class="container-xxl siteWrapper p-0 m-0">
-	<div class="wrapper d-flex justify-content-center p-0 flex-column"> <!-- wrapper -->
-		<div class="header container container-fluid p-0"> <!-- header -->
-			<div class="row m-0 p-0">
-					<div class="col-lg-3 col-md-12 align-self-start p-0 m-0">
-						<div class="imgBox mx-auto"><img src="./assets/images/logo.png" alt=""></div>
+<body class="d-flex flex-column justify-content-center align-items-center" onload="myFunction()">
+	<div class="site d-flex flex-column position-relative">
+		<div id="loader"><div class="loader"></div></div>
+		<div class="body animate-bottom" style="display:none;" id="body">
+			<section class="container-fluid p-0 firstSection d-flex justify-content-center">
+				<!-- firstSection-->
+				<div class="container-xxl siteWrapper p-0 m-0">
+					<div class="wrapper d-flex justify-content-center p-0 flex-column">
+						<!-- wrapper -->
+						<div class="header container container-fluid p-0">
+							<!-- header -->
+							<div class="row m-0 p-0">
+								<div class="col-lg-3 col-md-12 align-self-start p-0 m-0">
+									<div class="imgBox mx-auto"><img src="./assets/images/logo.png" alt=""></div>
+								</div>
+								<div class="col m-0 p-0 d-flex align-self-center justify-content-end menuDiv mt-2">
+									<!-- menuDiv -->
+									<ul class="my-auto p-0">
+										<li class="mx-auto"><a href="./index.html">home</a></li>
+										<li class="mx-auto"><a href="#services">services</a></li>
+										<li class="mx-auto"><a href="#about">about</a></li>
+										<li class="mx-auto"><a href="#portfolio">portfolio</a></li>
+										<li class="mx-auto"><a href="#academic">academic</a></li>
+										<li class="mx-auto"><a href="#blog">blog</a></li>
+										<li class="mx-auto"><a href="#contact us">contact us</a></li>
+										<div class="contact-number d-flex justify-content-end">
+											<ul>
+												<li class="">(+001122334)</li>
+											</ul>
+										</div>
+									</ul>
+								</div> <!-- menuDiv -->
+								<!-- mobile-menu -->
+								<div class="menuToggle mobile-menu" onclick="toggleMenu();">
+									<ul class="menu navigation p-0">
+										<li><a href="./index.html">home</a></li>
+										<li><a href="#services">services</a></li>
+										<li><a href="#about">about</a></li>
+										<li><a href="#portfolio">portfolio</a></li>
+										<li><a href="#academic">academic</a></li>
+										<li><a href="#blog">blog</a></li>
+										<li><a href="#contact us">contact us</a></li>
+									</ul>
+									<button type="button" class="menu-button">
+										<span></span>
+									</button>
+								</div> <!-- mobile-menu -->
+							</div>
+						</div> <!-- header -->
+						<div class="contentBox container container-fluid p-0 position-relative d-flex">
+							<!-- contentBox -->
+							<div class="col-lg-5 p-0 textBox">
+								<!-- textBox -->
+								<h2>unique-tech <br>
+									app development</h2>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ducimus et dolorem sed
+									accusantium temporibus tenetur qui reiciendis consequatur corporis facere doloremque hic ipsam
+									quam eum provident quo tempora consequuntur!<br>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ducimus et dolorem sed
+									accusantium temporibus
+									tenetur.
+								</p>
+								<a class="btn" href="#">view more<span><i class="fa fa-paper-plane"></i></span>
+								</a>
+							</div> <!-- textBox -->
+							<div class="arrowBox position-absolute">
+								<!-- arrow -->
+								<img src="./assets/images/Shape_7.png" alt="">
+							</div>
+							<div class="slider position-relative w-100">
+								<!-- Carousel -->
+								<div class="sliderBox position-absolute">
+									<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+										<div class="carousel-indicators">
+											<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+												class="active" aria-current="true" aria-label="Slide 1"></button>
+											<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+												aria-label="Slide 2"></button>
+											<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+												aria-label="Slide 3"></button>
+										</div>
+			
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img src="./assets/images/slider-img.png" class="d-block w-100" alt="...">
+											</div>
+											<div class="carousel-item">
+												<img src="./assets/images/slider-img.png" class="d-block w-100" alt="...">
+											</div>
+											<div class="carousel-item">
+												<img src="./assets/images/slider-img.png" class="d-block w-100" alt="...">
+											</div>
+										</div>
+										<button class="carousel-control-prev" type="button"
+											data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+											<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+											<span class="visually-hidden">Previous</span>
+										</button>
+										<button class="carousel-control-next" type="button"
+											data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+											<span class="carousel-control-next-icon" aria-hidden="true"></span>
+											<span class="visually-hidden">Next</span>
+										</button>
+									</div>
+								</div>
+							</div> <!-- Carousel -->
+						</div> <!-- contentBox -->
+					</div> <!-- wrapper -->
+				</div>
+			</section> <!-- firstSection -->
+			<section class="container-fluid p-0 whatWeDo d-flex justify-content-center" id="portfolio">
+				<!-- whatWeDo -->
+				<div class="container-xxl siteWrapper p-0 m-0">
+					<!-- siteWrapper -->
+					<div class="wrapper d-flex justify-content-center p-0 flex-column">
+						<div class="col-4 title text-center mx-auto position-relative title-responsive">
+							<h2 class="m-0 titleHeading	">what we do</h2>
+							<div class="imgBox position-absolute rightArrow"><img src="./assets/images/send4.png" alt=""></div>
+						</div>
+						<div class="col-md-12 d-flex contentBox d-flex justify-content-center margin-7-0">
+							<!-- contentBox -->
+							<div class="imgBox col-md-6 col-sm-6 col-xs-12">
+								<img src="assets/images/monitor.png" alt="" />
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="textBox">
+									<h4>web design</h4>
+									<p class="p-content">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+										ut labore et
+										dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+										ut aliquip ex
+										ea commodo consequat. <br>
+										Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+										pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+										mollit anim id
+										est. laboru
+									</p>
+									<button class="btn-section">View More</button>
+								</div>
+							</div>
+						</div> <!-- contentBox -->
+						<div class="col-md-12 d-flex contentBox d-flex flex-row-reverse justify-content-center margin-7-0">
+							<!-- contentBox -->
+							<div class="imgBox col-md-6 col-sm-6 col-xs-12 d-flex justify-content-end">
+								<img src="assets/images/monitor.png" alt="" />
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="textBox">
+									<h4>search engine optimization</h4>
+									<p class="p-content">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+										ut labore et
+										dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+										ut aliquip
+										ex
+										ea commodo consequat. <br>
+										Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+										pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+										mollit anim
+										id
+										est. laboru
+									</p>
+									<button class="btn-section">View More</button>
+								</div>
+							</div>
+						</div> <!-- contentBox -->
+						<div class="col-md-12 d-flex contentBox d-flex justify-content-center margin-7-0">
+							<!-- contentBox -->
+							<div class="imgBox col-md-6 col-sm-6 col-xs-12">
+								<img src="assets/images/monitor.png" alt="" />
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="textBox">
+									<h4>affiliate marketing</h4>
+									<p class="p-content">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+										ut labore et
+										dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+										ut aliquip
+										ex
+										ea commodo consequat. <br>
+										Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+										pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+										mollit anim
+										id
+										est. laboru
+									</p>
+									<button class="btn-section">View More</button>
+								</div>
+							</div>
+						</div> <!-- contentBox -->
 					</div>
-					<div class="col m-0 p-0 d-flex align-self-center justify-content-end menuDiv mt-2"> <!-- menuDiv -->
-						<ul class="my-auto p-0">
-							<li class="mx-auto"><a href="./index.html">home</a></li>
-							<li class="mx-auto"><a href="#services">services</a></li>
-							<li class="mx-auto"><a href="#about">about</a></li>
-							<li class="mx-auto"><a href="#portfolio">portfolio</a></li>
-							<li class="mx-auto"><a href="#academic">academic</a></li>
-							<li class="mx-auto"><a href="#blog">blog</a></li>
-							<li class="mx-auto"><a href="#contact us">contact us</a></li>
-							<div class="contact-number d-flex justify-content-end">
-								<ul>
-									<li class="">(+001122334)</li>
-								</ul>
-							</div>
-						</ul>
-					</div> <!-- menuDiv -->
-					<!-- mobile-menu -->
-					<div class="menuToggle mobile-menu" onclick="toggleMenu();">
-						<ul class="menu navigation p-0">
-							<li><a href="./index.html">home</a></li>
-							<li><a href="#services">services</a></li>
-							<li><a href="#about">about</a></li>
-							<li><a href="#portfolio">portfolio</a></li>
-							<li><a href="#academic">academic</a></li>
-							<li><a href="#blog">blog</a></li>
-							<li><a href="#contact us">contact us</a></li>
-						</ul>
-						<button type="button" class="menu-button">
-							<span></span>
-						</button>
-					</div> <!-- mobile-menu -->
-			</div>
-		</div> <!-- header -->
-		<div class="contentBox container container-fluid p-0 position-relative d-flex"> <!-- contentBox -->
-			<div class="col-lg-5 p-0 textBox"> <!-- textBox -->
-				<h2>unique-tech <br>
-				app development</h2>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ducimus et dolorem sed accusantium temporibus tenetur qui reiciendis consequatur corporis facere doloremque hic ipsam quam eum provident quo tempora consequuntur!<br>
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ducimus et dolorem sed accusantium temporibus
-					tenetur.
-				</p>
-				<a class="btn" href="#">view more<span><i class="fa fa-paper-plane"></i></span>
-				</a>
-			</div> <!-- textBox -->
-			<div class="arrowBox position-absolute"> <!-- arrow -->
-				<img src="./assets/images/Shape_7.png" alt="">
-			</div>
-			<div class="slider position-relative w-100"> <!-- Carousel -->
-					<div class="sliderBox position-absolute">
-						<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-							<div class="carousel-indicators">
-								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-									aria-current="true" aria-label="Slide 1"></button>
-								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-									aria-label="Slide 2"></button>
-								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-									aria-label="Slide 3"></button>
-							</div>
-						
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img src="./assets/images/slider-img.png" class="d-block w-100" alt="...">
+				</div> <!-- siteWrapper -->
+			</section> <!-- whatWeDo -->
+			<section class="container-fluid p-0 howWeWork d-flex justify-content-center">
+				<!-- howWeWork -->
+				<div class="container-xxl siteWrapper p-0 m-0">
+					<!-- siteWrapper -->
+					<div class="wrapper d-flex justify-content-center p-0 flex-column">
+						<!-- wrapper -->
+						<div class="col-4 title text-center mx-auto position-relative title-responsive">
+							<!-- title -->
+							<h2 class="m-0 titleHeading">how we work</h2>
+							<div class="imgBox position-absolute leftArrow"><img src="./assets/images/send664.png" alt=""></div>
+						</div> <!-- title -->
+						<div class="img col-md-12">
+							<img src="./assets/images/Vector Smart Object-bgi.jpg" alt="">
+						</div>
+					</div> <!-- wrapper -->
+				</div> <!-- siteWrapper -->
+			</section> <!-- howWeWork -->
+			<section class="container-fluid p-0 features d-flex justify-content-center">
+				<!-- features -->
+				<div class="container-xxl siteWrapper p-0 m-0">
+					<!-- siteWrapper -->
+					<div class="wrapper d-flex justify-content-center p-0 flex-column">
+						<!-- wrapper -->
+						<div class="col-4 title text-center mx-auto position-relative title-responsive">
+							<h2 class="m-0 titleHeading	">our features</h2>
+							<div class="imgBox position-absolute rightArrow"><img src="./assets/images/send4.png" alt=""></div>
+						</div>
+						<div class="contentBox col margin-7-0">
+							<!-- contentBox -->
+							<div class="row">
+								<div class="col-md-4 col-sm-6 col-xs-12 box">
+									<div class="features-content active">
+										<h4 class="h4-Content d-flex"><i class="fa fa-file-text-o" style="transform: scaleX(-1);"
+												aria-hidden="true"></i><span class="doc d-flex align-items-start">visual
+												composer</span></h4>
+										<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or
+											to remember any shortcodes with our.</p>
+									</div>
 								</div>
-								<div class="carousel-item">
-									<img src="./assets/images/slider-img.png" class="d-block w-100" alt="...">
+								<div class="col-md-4 col-sm-6 col-xs-12 box">
+									<div class="features-content">
+										<h4 class="h4-Content d-flex">
+											<div class="imgBox"><img src="./assets/images/lcd2.jpg" alt=""></div>
+											<span>responsive</span>
+										</h4>
+										<p class="p-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+											eiusmod tempor incididunt ut labore
+											et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla.</p>
+									</div>
 								</div>
-								<div class="carousel-item">
-									<img src="./assets/images/slider-img.png" class="d-block w-100" alt="...">
+								<div class="col-md-4 col-sm-6 col-xs-12 box">
+									<div class="features-content">
+										<h4 class="h4-Content d-flex">
+											<div class="imgBox"><img src="./assets/images/notebook79.jpg" alt=""></div><span>retina
+												ready</span>
+										</h4>
+										<p class="p-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+											eiusmod tempor incididunt ut labore
+											et dolore magna aliqua.</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12 box">
+									<div class="features-content">
+										<h4 class="h4-Content d-flex">
+											<div class="imgBox"><img src="./assets/images/pencil124.jpg" alt=""></div>
+											<span>typography</span>
+										</h4>
+										<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or
+											to remember any shortcodes with our Theme.</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12 box">
+									<div class="features-content">
+										<h4 class="h4-Content d-flex">
+											<div class="imgBox"><img src="./assets/images/wallet35.jpg" alt=""></div><span>theme
+												options pannel</span>
+										</h4>
+										<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or
+											to remember any shortcodes with our Theme.</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12 box">
+									<div class="features-content">
+										<h4 class="h4-Content d-flex">
+											<div class="imgBox"><img src="./assets/images/hand224.jpg" alt=""></div><span>dummy
+												content</span>
+										</h4>
+										<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or
+											to remember any shortcodes with our Theme.</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12 box">
+									<div class="features-content">
+										<h4 class="h4-Content d-flex">
+											<div class="imgBox"><img src="./assets/images/globe32.jpg" alt=""></div><span>many style
+												available</span>
+										</h4>
+										<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or
+											to remember any shortcodes with our Theme.</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12 box">
+									<div class="features-content">
+										<h4 class="h4-Content d-flex">
+											<div class="imgBox"><img src="./assets/images/cropping4.jpg" alt=""></div><span>header
+												style</span>
+										</h4>
+										<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or
+											to remember any shortcodes with our Theme.</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12 box">
+									<div class="features-content">
+										<h4 class="h4-Content d-flex">
+											<div class="imgBox"><img src="./assets/images/bag45.jpg" alt=""></div>10000+ icons
+										</h4>
+										<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or
+											to remember any shortcodes with our Theme.</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12 box">
+									<div class="features-content">
+										<h4 class="h4-Content d-flex">
+											<div class="imgBox"><img src="./assets/images/dish7.jpg" alt=""></div>
+											<span>support</span>
+										</h4>
+										<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or
+											to remember any shortcodes with our Theme.</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12 box">
+									<div class="features-content">
+										<h4 class="h4-Content d-flex">
+											<div class="imgBox"><img src="./assets/images/wealth.jpg" alt=""></div>
+											<span>update</span>
+										</h4>
+										<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or
+											to remember any shortcodes with our Theme.</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12 box">
+									<div class="features-content">
+										<h4 class="h4-Content d-flex">
+											<div class="imgBox"><img src="./assets/images/soft4.jpg" alt=""></div><span>SEO
+												ready</span>
+										</h4>
+										<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or
+											to remember any shortcodes with our Theme.</p>
+									</div>
 								</div>
 							</div>
-							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-								data-bs-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Previous</span>
-							</button>
-							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-								data-bs-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Next</span>
-							</button>
+						</div> <!-- contentBox -->
+					</div> <!-- wrapper -->
+				</div> <!-- siteWrapper -->
+			</section> <!-- features -->
+			<section class="container-fluid p-0 packages d-flex justify-content-center">
+				<!-- packages -->
+				<div class="container-xxl siteWrapper p-0 m-0">
+					<!-- siteWrapper -->
+					<div class="wrapper d-flex justify-content-center p-0 flex-column">
+						<!-- wrapper -->
+						<div class="col-4 title text-center mx-auto position-relative title-responsive">
+							<!-- title -->
+							<h2 class="m-0 titleHeading">our packages</h2>
+							<div class="imgBox position-absolute leftArrow"><img src="./assets/images/send664.png" alt=""></div>
+						</div> <!-- title -->
+						<div class="contentBox col margin">
+							<!-- contentBox -->
+							<div class="row">
+								<div class="main-package text-center d-flex">
+									<div class="col-md-4 col-sm-12 col-xs-12 boxBasic">
+										<div class="package-item basic text-center">
+											<h5 class="mx-auto">Basic</h5>
+											<ul class="p-0">
+												<li class="border">5 web sites</li>
+												<li class="border">15 e-mails</li>
+												<li class="border">5 MySQL databases</li>
+												<li class="border">10 GB storage</li>
+											</ul>
+											<div class="package-bottom-area padding">
+												<h3>$5/<span>mo.</span></h3>
+											</div>
+											<div class="pkg-btn"><a href="" class="btn btn-packages">ORDER NOW</a></div>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-12 col-xs-12 boxStandard">
+										<div class="package-item standard">
+											<h5 class="mx-auto">Standard</h5>
+											<ul class="p-0">
+												<li class="border">15 web sites</li>
+												<li class="border">40 e-mails</li>
+												<li class="border">20 MySQL databases</li>
+												<li class="border">50 GB storage</li>
+											</ul>
+											<div class="package-bottom-area">
+												<h3>$12<span>/mo.</span></h3>
+											</div>
+											<div class="pkg-btn"><a href="" class="btn btn-packages">ORDER NOW</a></div>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-12 col-xs-12 boxPremium">
+										<div class="package-item premium">
+											<h5 class="mx-auto">Premium</h5>
+											<ul class="p-0">
+												<li class="border">30 web sites</li>
+												<li class="border">50 e-mails</li>
+												<li class="border">40 MySQL databases</li>
+												<li class="border">100 GB storage</li>
+											</ul>
+											<div class="package-bottom-area padding">
+												<h3>$19/<span>mo.</span></h3>
+											</div>
+											<div class="pkg-btn"><a href="" class="btn btn-packages">ORDER NOW</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- contentBox -->
+						<!-- contentBox - tablet & mobile -->
+						<div class="contentBox2 d-flex flex-column justify-content-center align-items-center">
+							<div class="card border-secondary" style="max-width: 18rem;">
+								<div class="card-header text-center">basic</div>
+								<div class="card-body text-center">
+									<ul class="p-0">
+										<li>5 web sites</li>
+										<li>15 e-mails</li>
+										<li>5 MySQL databases</li>
+										<li>10 GB storage</li>
+									</ul>
+									<h5 class="card-title">$5/<span>mo.</span></h5>
+									<button type="button" class="btnPackages btn-secondary">order now</button>
+								</div>
+							</div>
+							<div class="card border-danger" style="max-width: 18rem;">
+								<div class="card-header text-center">standard</div>
+								<div class="card-body text-center">
+									<ul class="p-0">
+										<li>15 web sites</li>
+										<li>40 e-mails</li>
+										<li>20 MySQL databases</li>
+										<li>50 GB storage</li>
+									</ul>
+									<h5 class="card-title">$12/<span>mo.</span></h5>
+									<button type="button" class="btnPackages btn-danger">order now</button>
+								</div>
+							</div>
+							<div class="card border-warning" style="max-width: 18rem;">
+								<div class="card-header text-center">premium</div>
+								<div class="card-body text-center">
+									<ul class="p-0">
+										<li>30 web sites</li>
+										<li>50 e-mails</li>
+										<li>40 MySQL databases</li>
+										<li>100 GB storage</li>
+									</ul>
+									<h5 class="card-title">$19/<span>mo.</span></h5>
+									<button type="button" class="btnPackages btn-warning">order now</button>
+								</div>
+							</div>
+						</div> <!-- contentBox - tablet & mobile -->
+					</div> <!-- wrapper -->
+				</div> <!-- siteWrapper -->
+			</section> <!-- packages -->
+			<section class="container-fluid p-0 history d-flex justify-content-center" id="about">
+				<!-- history -->
+				<div class="container-xxl siteWrapper p-0 m-0">
+					<!-- siteWrapper -->
+					<div class="wrapper d-flex justify-content-center p-0 margin">
+						<!-- wrapper -->
+						<div class="col-md-6 col-sm-12 imgContainer mx-auto">
+							<div class="imgBox pe-5"><img src="./assets/images/Vector Smart Objectewqeqwe.jpg" alt=""></div>
+						</div>
+						<div class="col-md-6 col-sm-12 text-start mx-auto">
+							<div class="textBox">
+								<h4 class="titleHeading">our history</h4>
+								<p class="p-content">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+									labore et
+									dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+									aliquip
+									ex
+									ea commodo consequat. <br>
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+									pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+									mollit anim
+									id
+									est. laboru
+								</p>
+								<button class="btn-section">browse our story</button>
+							</div>
+						</div>
+					</div> <!-- wrapper -->
+				</div> <!-- siteWrapper -->
+			</section> <!-- history -->
+			<section class="container-fluid p-0 projects d-flex justify-content-center" id="services">
+				<!-- projects -->
+				<div class="container-xxl siteWrapper p-0 m-0">
+					<!-- siteWrapper -->
+					<div class="wrapper d-flex justify-content-center p-0 margin flex-column">
+						<!-- wrapper -->
+						<div class="title text-center mx-auto position-relative title-responsive">
+							<!-- title -->
+							<h2 class="m-0 titleHeading	">our business related projects</h2>
+							<div class="imgBox position-absolute rightArrow"><img src="./assets/images/send4.png" alt=""></div>
+						</div>
+						<div class="row">
+							<!-- row -->
+							<div class="col-md-3 col-sm-6 col-xs-12 box">
+								<div class="features-content text-center">
+									<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/1.png" alt=""></div>
+									<h4>technical aid</h4>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12 box">
+								<div class="features-content text-center">
+									<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/2.png" alt=""></div>
+									<h4>secure access</h4>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12 box">
+								<div class="features-content text-center">
+									<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/3.png" alt=""></div>
+									<h4>market research</h4>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12 box">
+								<div class="features-content text-center">
+									<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/4.png" alt=""></div>
+									<h4>credit</h4>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12 box">
+								<div class="features-content text-center">
+									<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/5.png" alt=""></div>
+									<h4 class="h4-row2">targetting</h4>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12 box">
+								<div class="features-content text-center">
+									<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/6.png" alt=""></div>
+									<h4 class="h4-row2">insureance</h4>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12 box">
+								<div class="features-content text-center">
+									<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/7.png" alt=""></div>
+									<h4 class="h4-row2">ecommerce</h4>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12 box">
+								<div class="features-content text-center">
+									<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/8.png" alt=""></div>
+									<h4 class="h4-row2">office</h4>
+								</div>
+							</div>
+						</div> <!-- row -->
+					</div> <!-- wrapper -->
+				</div> <!-- siteWrapper -->
+			</section> <!-- projects -->
+			<section class="container-fluid p-0 team d-flex justify-content-center">
+				<!-- team -->
+				<div class="container-xxl siteWrapper p-0 m-0">
+					<!-- siteWrapper -->
+					<div class="wrapper d-flex justify-content-center p-0 flex-column">
+						<!-- wrapper -->
+						<div class="col-4 title text-center mx-auto position-relative title-responsive">
+							<!-- title -->
+							<h2 class="m-0 titleHeading">our team members</h2>
+							<div class="imgBox position-absolute leftArrow"><img src="./assets/images/send664.png" alt=""></div>
+						</div> <!-- title -->
+						<div class="contentBox margin">
+							<!-- contentBox -->
+							<div class="row d-flex justify-content-center">
+								<!-- row -->
+								<div class="col-md-4 col-sm-4 col-xs-12 box">
+									<div class="features-content text-center">
+										<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/team1.png" alt=""></div>
+										<h4>syed miraj</h4>
+										<p>ui & ux designer</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12 box">
+									<div class="features-content text-center">
+										<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/team2.png" alt=""></div>
+										<h4>penny huston</h4>
+										<p>developer</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12 box">
+									<div class="features-content text-center">
+										<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/team3.png" alt=""></div>
+										<h4>lennerd shelly</h4>
+										<p>rewiever</p>
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-12 box">
+									<div class="features-content text-center">
+										<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/team4.png" alt=""></div>
+										<h4>sheldon cupper</h4>
+										<p>marketter</p>
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-12 box">
+									<div class="features-content text-center">
+										<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/team5.png" alt=""></div>
+										<h4>ashley cole</h4>
+										<p>management</p>
+									</div>
+								</div>
+							</div>
+						</div> <!-- contentBox -->
+					</div> <!-- wrapper -->
+				</div> <!-- siteWrapper -->
+			</section> <!-- team -->
+			<section class="container-fluid p-0 updates d-flex justify-content-center" id="academic">
+				<!-- Updates&Support -->
+				<div class="container-xxl siteWrapper p-0 m-0">
+					<!-- siteWrapper -->
+					<div class="wrapper d-flex justify-content-center p-0 flex-column">
+						<div class="col-4 title text-center mx-auto position-relative title-responsive">
+							<h2 class="m-0 titleHeading	">updates & support</h2>
+							<div class="imgBox position-absolute rightArrow"><img src="./assets/images/send4.png" alt=""></div>
+						</div>
+						<!-- contentBox -->
+						<div
+							class="col-md-12 d-flex contentBox d-flex flex-row-reverse justify-content-center margin-7-0 align-items-center">
+							<div class="imgBox col-md-6 col-sm-12 d-flex justify-content-end">
+								<img src="assets/images/MacBook_Pro.png" alt="" />
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<div class="textBox">
+									<p class="p-content">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+										ut labore et
+										dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+										ut aliquip
+										ex
+										ea commodo consequat. <br>
+										Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+										pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+										mollit anim
+										id
+										est. laboru
+									</p>
+									<button class="btn-section">support center</button>
+								</div>
+							</div>
+						</div> <!-- contentBox -->
+						<div class="hireUs mx-auto">
+							<div class="imgBox">
+								<div class="imgOverlay w-100 h-100"></div>
+							</div>
+							<div class="textBox d-flex m-0">
+								<div class="w-50 d-flex box">
+									<h4 class="h4-hireUs my-auto">need creative workers?</h4>
+								</div>
+								<div class="w-50 d-flex box justify-content-end">
+									<button class="btn-hireUs my-auto">hire us</button>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div> <!-- Carousel -->
-		</div> <!-- contentBox -->
-	</div> <!-- wrapper -->
-</div>
-</section> <!-- firstSection -->
-<section class="container-fluid p-0 whatWeDo d-flex justify-content-center" id="portfolio"> <!-- whatWeDo -->
-	<div class="container-xxl siteWrapper p-0 m-0"> <!-- siteWrapper -->
-		<div class="wrapper d-flex justify-content-center p-0 flex-column">
-			<div class="col-4 title text-center mx-auto position-relative title-responsive">
-				<h2 class="m-0 titleHeading	">what we do</h2>
-				<div class="imgBox position-absolute rightArrow"><img src="./assets/images/send4.png" alt=""></div>
-			</div>
-			<div class="col-md-12 d-flex contentBox d-flex justify-content-center margin-7-0"> <!-- contentBox -->
-				<div class="imgBox col-md-6 col-sm-6 col-xs-12">
-					<img src="assets/images/monitor.png" alt="" />
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="textBox">
-						<h4>web design</h4>
-						<p class="p-content">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-							ea commodo consequat. <br>
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-							pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-							est. laboru
-						</p>
-						<button class="btn-section">View More</button>
-					</div>
-				</div>
-			</div> <!-- contentBox -->
-			<div class="col-md-12 d-flex contentBox d-flex flex-row-reverse justify-content-center margin-7-0"> <!-- contentBox -->
-				<div class="imgBox col-md-6 col-sm-6 col-xs-12 d-flex justify-content-end">
-					<img src="assets/images/monitor.png" alt="" />
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="textBox">
-						<h4>search engine optimization</h4>
-						<p class="p-content">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-							ex
-							ea commodo consequat. <br>
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-							pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-							id
-							est. laboru
-						</p>
-						<button class="btn-section">View More</button>
-					</div>
-				</div>
-			</div> <!-- contentBox -->
-			<div class="col-md-12 d-flex contentBox d-flex justify-content-center margin-7-0"> <!-- contentBox -->
-				<div class="imgBox col-md-6 col-sm-6 col-xs-12">
-					<img src="assets/images/monitor.png" alt="" />
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="textBox">
-						<h4>affiliate marketing</h4>
-						<p class="p-content">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-							ex
-							ea commodo consequat. <br>
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-							pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-							id
-							est. laboru
-						</p>
-						<button class="btn-section">View More</button>
-					</div>
-				</div>
-			</div> <!-- contentBox -->
+				</div> <!-- siteWrapper -->
+			</section> <!-- Updates&Support -->
+			<section class="container-fluid p-0 footer d-flex justify-content-center">
+				<!-- footer -->
+				<div class="container-xxl siteWrapper p-0 m-0">
+					<!-- siteWrapper -->
+					<div class="wrapper d-flex justify-content-center p-0 margin flex-column">
+						<!-- wrapper -->
+						<div class="row container-fluid p-0">
+							<!-- contentDiv -->
+							<div class="contentDiv d-flex justify-content-center row">
+								<!-- contentBox -->
+								<div class="contentBox col-md-3 col-sm-6 p-0">
+									<h4 class="m-0">portfolio</h4>
+									<ul>
+										<a href="#">
+											<li>web design</li>
+										</a>
+										<a href="#">
+											<li>branding & identity</li>
+										</a>
+										<a href="#">
+											<li>mobile design</li>
+										</a>
+										<a href="#">
+											<li>print</li>
+										</a>
+										<a href="#">
+											<li>user interface</li>
+										</a>
+									</ul>
+								</div> <!-- contentBox -->
+								<!-- contentBox -->
+								<div class="contentBox col-md-3 col-sm-6 p-0">
+									<h4 class="m-0">about</h4>
+									<ul>
+										<a href="#">
+											<li>the company</li>
+										</a>
+										<a href="#">
+											<li>history</li>
+										</a>
+										<a href="#">
+											<li>vision</li>
+										</a>
+									</ul>
+								</div> <!-- contentBox -->
+								<!-- contentBox -->
+								<div class="contentBox col-md-3 col-sm-6 p-0">
+									<h4 class="m-0">gallery</h4>
+									<ul>
+										<a href="#">
+											<li>Flickr</li>
+										</a>
+										<a href="#">
+											<li>Picasa</li>
+										</a>
+										<a href="#">
+											<li>iStockPhoto</li>
+										</a>
+										<a href="#">
+											<li>PhotoDune</li>
+										</a>
+									</ul>
+								</div> <!-- contentBox -->
+								<!-- contentBox -->
+								<div class="contentBox col-md-3 col-sm-6 p-0">
+									<h4 class="m-0">contact</h4>
+									<ul>
+										<a href="#">
+											<li>basic info</li>
+										</a>
+										<a href="#">
+											<li>map</li>
+										</a>
+										<a href="#">
+											<li>contact form</li>
+										</a>
+										<a href="#">
+											<li>print</li>
+										</a>
+										<a href="#">
+											<li>user interface</li>
+										</a>
+									</ul>
+								</div> <!-- contentBox -->
+							</div> <!-- contentDiv -->
+						</div>
+						<div class="row">
+							<!-- contentBox -->
+							<div class="contentBox2">
+								<div class="social d-flex justify-content-center">
+									<div class="box fb d-flex align-items-center justify-content-center"><a href="#"><i
+												class="fa fa-facebook" aria-hidden="true"></i></a></div>
+									<div class="box tw d-flex align-items-center justify-content-center"><a href="#"><i
+												class="fa fa-twitter" aria-hidden="true"></i></a></div>
+									<div class="box g+ d-flex align-items-center justify-content-center"><a href="#"
+											class="text-center"><img class="w-35 h-35" src="./assets/images/google-plus-64.png"
+												alt=""></a></div>
+									<div class="box in d-flex align-items-center justify-content-center"><a href="#"><i
+												class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+								</div>
+							</div> <!-- contentBox -->
+						</div>
+						<div class="row">
+							<!-- contentBox -->
+							<div class="contentBox3">
+								<div class="footerBottom d-flex justify-content-center">
+									<p class="text-center m-0">Copyright &copy; <span id="date"></span> Unique Tech.</p>
+									<p class="text-center ms-2">All rights reserved.</p>
+								</div>
+							</div> <!-- contentBox -->
+						</div>
+					</div> <!-- wrapper -->
+				</div> <!-- siteWrapper -->
+			</section> <!-- footer -->
 		</div>
-	</div> <!-- siteWrapper -->
-</section> <!-- whatWeDo -->
-<section class="container-fluid p-0 howWeWork d-flex justify-content-center"> <!-- howWeWork -->
-	<div class="container-xxl siteWrapper p-0 m-0"> <!-- siteWrapper -->
-		<div class="wrapper d-flex justify-content-center p-0 flex-column"> <!-- wrapper -->
-			<div class="col-4 title text-center mx-auto position-relative title-responsive"> <!-- title -->
-				<h2 class="m-0 titleHeading">how we work</h2>
-				<div class="imgBox position-absolute leftArrow"><img src="./assets/images/send664.png" alt=""></div>
-			</div> <!-- title -->
-			<div class="img col-md-12">
-				<img src="./assets/images/Vector Smart Object-bgi.jpg" alt="">
-			</div>
-		</div> <!-- wrapper -->
-	</div> <!-- siteWrapper -->
-</section> <!-- howWeWork -->
-<section class="container-fluid p-0 features d-flex justify-content-center"> <!-- features -->
-	<div class="container-xxl siteWrapper p-0 m-0"> <!-- siteWrapper -->
-		<div class="wrapper d-flex justify-content-center p-0 flex-column"> <!-- wrapper -->
-			<div class="col-4 title text-center mx-auto position-relative title-responsive">
-				<h2 class="m-0 titleHeading	">our features</h2>
-				<div class="imgBox position-absolute rightArrow"><img src="./assets/images/send4.png" alt=""></div>
-			</div>
-			<div class="contentBox col margin-7-0"> <!-- contentBox -->
-				<div class="row">
-					<div class="col-md-4 col-sm-6 col-xs-12 box">
-						<div class="features-content active">
-							<h4 class="h4-Content d-flex"><i class="fa fa-file-text-o" style="transform: scaleX(-1);" aria-hidden="true"></i><span class="doc d-flex align-items-start">visual composer</span></h4>
-							<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or to remember any shortcodes with our.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 box">
-						<div class="features-content">
-							<h4 class="h4-Content d-flex"><div class="imgBox"><img src="./assets/images/lcd2.jpg" alt=""></div><span>responsive</span></h4>
-							<p class="p-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-								et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 box">
-						<div class="features-content">
-							<h4 class="h4-Content d-flex"><div class="imgBox"><img src="./assets/images/notebook79.jpg" alt=""></div><span>retina ready</span></h4>
-							<p class="p-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-								et dolore magna aliqua.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 box">
-						<div class="features-content">
-							<h4 class="h4-Content d-flex"><div class="imgBox"><img src="./assets/images/pencil124.jpg" alt=""></div><span>typography</span></h4>
-							<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or to remember any shortcodes with our Theme.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 box">
-						<div class="features-content">
-							<h4 class="h4-Content d-flex"><div class="imgBox"><img src="./assets/images/wallet35.jpg" alt=""></div><span>theme options pannel</span></h4>
-							<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or to remember any shortcodes with our Theme.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 box">
-						<div class="features-content">
-							<h4 class="h4-Content d-flex"><div class="imgBox"><img src="./assets/images/hand224.jpg" alt=""></div><span>dummy content</span></h4>
-							<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or to remember any shortcodes with our Theme.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 box">
-						<div class="features-content">
-							<h4 class="h4-Content d-flex"><div class="imgBox"><img src="./assets/images/globe32.jpg" alt=""></div><span>many style available</span></h4>
-							<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or to remember any shortcodes with our Theme.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 box">
-						<div class="features-content">
-							<h4 class="h4-Content d-flex"><div class="imgBox"><img src="./assets/images/cropping4.jpg" alt=""></div><span>header style</span></h4>
-							<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or to remember any shortcodes with our Theme.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 box">
-						<div class="features-content">
-							<h4 class="h4-Content d-flex"><div class="imgBox"><img src="./assets/images/bag45.jpg" alt=""></div>10000+ icons</h4>
-							<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or to remember any shortcodes with our Theme.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 box">
-						<div class="features-content">
-							<h4 class="h4-Content d-flex"><div class="imgBox"><img src="./assets/images/dish7.jpg" alt=""></div><span>support</span></h4>
-							<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or to remember any shortcodes with our Theme.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 box">
-						<div class="features-content">
-							<h4 class="h4-Content d-flex"><div class="imgBox"><img src="./assets/images/wealth.jpg" alt=""></div><span>update</span></h4>
-							<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or to remember any shortcodes with our Theme.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 box">
-						<div class="features-content">
-							<h4 class="h4-Content d-flex"><div class="imgBox"><img src="./assets/images/soft4.jpg" alt=""></div><span>SEO ready</span></h4>
-							<p class="p-content">TheFox comes with the Visual Composer Plugin. You don't need to code or to remember any shortcodes with our Theme.</p>
-						</div>
-					</div>
-				</div>
-			</div> <!-- contentBox -->
-		</div> <!-- wrapper -->
-	</div> <!-- siteWrapper -->
-</section> <!-- features -->
-<section class="container-fluid p-0 packages d-flex justify-content-center"> <!-- packages -->
-	<div class="container-xxl siteWrapper p-0 m-0">
-		<!-- siteWrapper -->
-		<div class="wrapper d-flex justify-content-center p-0 flex-column">
-			<!-- wrapper -->
-			<div class="col-4 title text-center mx-auto position-relative title-responsive">
-				<!-- title -->
-				<h2 class="m-0 titleHeading">our packages</h2>
-				<div class="imgBox position-absolute leftArrow"><img src="./assets/images/send664.png" alt=""></div>
-			</div> <!-- title -->
-			<div class="contentBox col margin"> <!-- contentBox -->
-				<div class="row">
-     <div class="main-package text-center d-flex">
-         <div class="col-md-4 col-sm-12 col-xs-12 boxBasic">
-             <div class="package-item basic text-center">
-                 <h5 class="mx-auto">Basic</h5>
-                 <ul class="p-0">
-                     <li class="border">5 web sites</li>
-                     <li class="border">15 e-mails</li>
-                     <li class="border">5 MySQL databases</li>
-                     <li class="border">10 GB storage</li>
-                 </ul>
-                 <div class="package-bottom-area padding">
-                     <h3>$5/<span>mo.</span></h3>
-                 </div>
-                 <div class="pkg-btn"><a href="" class="btn btn-packages">ORDER NOW</a></div>
-             </div>
-         </div>
-         <div class="col-md-4 col-sm-12 col-xs-12 boxStandard">
-             <div class="package-item standard">
-                 <h5 class="mx-auto">Standard</h5>
-                 <ul class="p-0">
-                     <li class="border">15 web sites</li>
-                     <li class="border">40 e-mails</li>
-                     <li class="border">20 MySQL databases</li>
-                     <li class="border">50 GB storage</li>
-                 </ul>
-                 <div class="package-bottom-area">
-                     <h3>$12<span>/mo.</span></h3>
-                 </div>
-                 <div class="pkg-btn"><a href="" class="btn btn-packages">ORDER NOW</a></div>
-             </div>
-         </div>
-         <div class="col-md-4 col-sm-12 col-xs-12 boxPremium">
-             <div class="package-item premium">
-                 <h5 class="mx-auto">Premium</h5>
-                 <ul class="p-0">
-                     <li class="border">30 web sites</li>
-                     <li class="border">50 e-mails</li>
-                     <li class="border">40 MySQL databases</li>
-                     <li class="border">100 GB storage</li>
-                 </ul>
-                 <div class="package-bottom-area padding">
-                     <h3>$19/<span>mo.</span></h3>
-                 </div>
-                 <div class="pkg-btn"><a href="" class="btn btn-packages">ORDER NOW</a></div>
-             </div>
-         </div>
-     </div>
-				</div>
-			</div> <!-- contentBox -->
-			<!-- contentBox - tablet & mobile -->
-			<div class="contentBox2 d-flex flex-column justify-content-center align-items-center">
-				<div class="card border-secondary" style="max-width: 18rem;">
-					<div class="card-header text-center">basic</div>
-					<div class="card-body text-center">
-						<ul class="p-0">
-							<li>5 web sites</li>
-							<li>15 e-mails</li>
-							<li>5 MySQL databases</li>
-							<li>10 GB storage</li>
-						</ul>
-						<h5 class="card-title">$5/<span>mo.</span></h5>
-						<button type="button" class="btnPackages btn-secondary">order now</button>
-					</div>
-				</div>
-				<div class="card border-danger" style="max-width: 18rem;">
-					<div class="card-header text-center">standard</div>
-					<div class="card-body text-center">
-						<ul class="p-0">
-							<li>15 web sites</li>
-							<li>40 e-mails</li>
-							<li>20 MySQL databases</li>
-							<li>50 GB storage</li>
-						</ul>
-						<h5 class="card-title">$12/<span>mo.</span></h5>
-						<button type="button" class="btnPackages btn-danger">order now</button>
-					</div>
-				</div>
-				<div class="card border-warning" style="max-width: 18rem;">
-					<div class="card-header text-center">premium</div>
-					<div class="card-body text-center">
-						<ul class="p-0">
-							<li>30 web sites</li>
-							<li>50 e-mails</li>
-							<li>40 MySQL databases</li>
-							<li>100 GB storage</li>
-						</ul>
-						<h5 class="card-title">$19/<span>mo.</span></h5>
-						<button type="button" class="btnPackages btn-warning">order now</button>
-					</div>
-				</div>
-			</div> <!-- contentBox - tablet & mobile -->
-		</div> <!-- wrapper -->
-	</div> <!-- siteWrapper -->
-</section> <!-- packages -->
-<section class="container-fluid p-0 history d-flex justify-content-center" id="about"> <!-- history -->
-	<div class="container-xxl siteWrapper p-0 m-0">
-		<!-- siteWrapper -->
-		<div class="wrapper d-flex justify-content-center p-0 margin">
-			<!-- wrapper -->
-			<div class="col-md-6 col-sm-12 imgContainer mx-auto">
-				<div class="imgBox pe-5"><img src="./assets/images/Vector Smart Objectewqeqwe.jpg" alt=""></div>
-			</div>
-			<div class="col-md-6 col-sm-12 text-start mx-auto">
-					<div class="textBox">
-						<h4 class="titleHeading">our history</h4>
-						<p class="p-content">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-							ex
-							ea commodo consequat. <br>
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-							pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-							id
-							est. laboru
-						</p>
-						<button class="btn-section">browse our story</button>
-					</div>
-			</div>
-		</div> <!-- wrapper -->
-	</div> <!-- siteWrapper -->
-</section> <!-- history -->
-<section class="container-fluid p-0 projects d-flex justify-content-center" id="services">	<!-- projects -->
-	<div class="container-xxl siteWrapper p-0 m-0"> <!-- siteWrapper -->
-		<div class="wrapper d-flex justify-content-center p-0 margin flex-column"> <!-- wrapper -->
-			<div class="title text-center mx-auto position-relative title-responsive"> <!-- title -->
-				<h2 class="m-0 titleHeading	">our business related projects</h2>
-				<div class="imgBox position-absolute rightArrow"><img src="./assets/images/send4.png" alt=""></div>
-			</div> 
-				<div class="row"> <!-- row -->
-					<div class="col-md-3 col-sm-6 col-xs-12 box">
-      <div class="features-content text-center">
-      	<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/1.png" alt=""></div>
-							<h4>technical aid</h4> 
-      </div>
-				 </div>
-					<div class="col-md-3 col-sm-6 col-xs-12 box">
-						<div class="features-content text-center">
-							<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/2.png" alt=""></div>
-							<h4>secure access</h4>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 box">
-						<div class="features-content text-center">
-							<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/3.png" alt=""></div>
-							<h4>market research</h4>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 box">
-						<div class="features-content text-center">
-							<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/4.png" alt=""></div>
-							<h4>credit</h4>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 box">
-						<div class="features-content text-center">
-							<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/5.png" alt=""></div>
-							<h4 class="h4-row2">targetting</h4>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 box">
-						<div class="features-content text-center">
-							<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/6.png" alt=""></div>
-							<h4 class="h4-row2">insureance</h4>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 box">
-						<div class="features-content text-center">
-							<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/7.png" alt=""></div>
-							<h4 class="h4-row2">ecommerce</h4>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 box">
-						<div class="features-content text-center">
-							<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/8.png" alt=""></div>
-							<h4 class="h4-row2">office</h4>
-						</div>
-					</div>
-			 </div> <!-- row -->
-		</div> <!-- wrapper -->
-	</div> <!-- siteWrapper -->
-</section> <!-- projects -->
-<section class="container-fluid p-0 team d-flex justify-content-center">	<!-- team -->
-	<div class="container-xxl siteWrapper p-0 m-0">	<!-- siteWrapper -->
-		<div class="wrapper d-flex justify-content-center p-0 flex-column">	<!-- wrapper -->
-			<div class="col-4 title text-center mx-auto position-relative title-responsive">	<!-- title -->
-				<h2 class="m-0 titleHeading">our team members</h2>
-				<div class="imgBox position-absolute leftArrow"><img src="./assets/images/send664.png" alt=""></div>
-			</div> <!-- title -->
-			<div class="contentBox margin">	<!-- contentBox -->
-				<div class="row d-flex justify-content-center">
-					<!-- row -->
-					<div class="col-md-4 col-sm-4 col-xs-12 box">
-						<div class="features-content text-center">
-							<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/team1.png" alt=""></div>
-							<h4>syed miraj</h4>
-							<p>ui & ux designer</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12 box">
-						<div class="features-content text-center">
-							<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/team2.png" alt=""></div>
-							<h4>penny huston</h4>
-							<p>developer</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12 box">
-						<div class="features-content text-center">
-							<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/team3.png" alt=""></div>
-							<h4>lennerd shelly</h4>
-							<p>rewiever</p>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-6 col-xs-12 box">
-						<div class="features-content text-center">
-							<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/team4.png" alt=""></div>
-							<h4>sheldon cupper</h4>
-							<p>marketter</p>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-6 col-xs-12 box">
-						<div class="features-content text-center">
-							<div class="imgBox mx-auto"><img class="h-100" src="./assets/images/team5.png" alt=""></div>
-							<h4>ashley cole</h4>
-							<p>management</p>
-						</div>
-					</div>
-				</div>
-			</div> <!-- contentBox -->
-		</div> <!-- wrapper -->
-	</div> <!-- siteWrapper -->
-</section> <!-- team -->
-<section class="container-fluid p-0 updates d-flex justify-content-center" id="academic">	<!-- Updates&Support -->
-	<div class="container-xxl siteWrapper p-0 m-0">	<!-- siteWrapper -->
-		<div class="wrapper d-flex justify-content-center p-0 flex-column">
-			<div class="col-4 title text-center mx-auto position-relative title-responsive">
-				<h2 class="m-0 titleHeading	">updates & support</h2>
-				<div class="imgBox position-absolute rightArrow"><img src="./assets/images/send4.png" alt=""></div>
-			</div>
-			<!-- contentBox -->
-			<div class="col-md-12 d-flex contentBox d-flex flex-row-reverse justify-content-center margin-7-0 align-items-center">
-				<div class="imgBox col-md-6 col-sm-12 d-flex justify-content-end">
-					<img src="assets/images/MacBook_Pro.png" alt="" />
-				</div>
-				<div class="col-md-6 col-sm-12">
-					<div class="textBox">
-						<p class="p-content">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-							ut labore et
-							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-							ut aliquip
-							ex
-							ea commodo consequat. <br>
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-							pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-							mollit anim
-							id
-							est. laboru
-						</p>
-						<button class="btn-section">support center</button>
-					</div>
-				</div>
-			</div> <!-- contentBox -->
-			<div class="hireUs mx-auto">
-				<div class="imgBox">
-					<div class="imgOverlay w-100 h-100"></div>
-				</div>
-				<div class="textBox d-flex m-0">
-					<div class="w-50 d-flex box">
-						<h4 class="h4-hireUs my-auto">need creative workers?</h4>
-					</div>
-					<div class="w-50 d-flex box justify-content-end">
-						<button class="btn-hireUs my-auto">hire us</button>
-					</div>					
-				</div>
-			</div>
-		</div>
-	</div> <!-- siteWrapper -->
-</section> <!-- Updates&Support -->
-<section class="container-fluid p-0 footer d-flex justify-content-center">	<!-- footer -->
-	<div class="container-xxl siteWrapper p-0 m-0">	<!-- siteWrapper -->
-		<div class="wrapper d-flex justify-content-center p-0 margin flex-column">	<!-- wrapper -->
-			<div class="row container-fluid p-0">
-				<!-- contentDiv -->
-				<div class="contentDiv d-flex justify-content-center row">
-					<!-- contentBox -->
-					<div class="contentBox col-md-3 col-sm-6 p-0">
-						<h4 class="m-0">portfolio</h4>
-						<ul>
-							<a href="#"><li>web design</li></a>
-							<a href="#"><li>branding & identity</li></a>
-							<a href="#"><li>mobile design</li></a>
-							<a href="#"><li>print</li></a>
-							<a href="#"><li>user interface</li></a>
-						</ul>
-					</div> <!-- contentBox -->
-					<!-- contentBox -->
-					<div class="contentBox col-md-3 col-sm-6 p-0">
-						<h4 class="m-0">about</h4>
-						<ul>
-							<a href="#"><li>the company</li></a>
-							<a href="#"><li>history</li></a>
-							<a href="#"><li>vision</li></a>
-						</ul>
-					</div> <!-- contentBox -->
-					<!-- contentBox -->
-					<div class="contentBox col-md-3 col-sm-6 p-0">
-						<h4 class="m-0">gallery</h4>
-						<ul>
-							<a href="#"><li>Flickr</li></a>
-							<a href="#"><li>Picasa</li></a>
-							<a href="#"><li>iStockPhoto</li></a>
-							<a href="#"><li>PhotoDune</li></a>
-						</ul>
-					</div> <!-- contentBox -->
-					<!-- contentBox -->
-					<div class="contentBox col-md-3 col-sm-6 p-0">
-						<h4 class="m-0">contact</h4>
-						<ul>
-							<a href="#"><li>basic info</li></a>
-							<a href="#"><li>map</li></a>
-							<a href="#"><li>contact form</li></a>
-							<a href="#"><li>print</li></a>
-							<a href="#"><li>user interface</li></a>
-						</ul>
-					</div> <!-- contentBox -->
-				</div> <!-- contentDiv -->
-			</div>
-			<div class="row">
-				<!-- contentBox -->
-				<div class="contentBox2">
-					<div class="social d-flex justify-content-center">
-						<div class="box fb d-flex align-items-center justify-content-center"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
-						<div class="box tw d-flex align-items-center justify-content-center"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
-						<div class="box g+ d-flex align-items-center justify-content-center"><a href="#" class="text-center"><img class="w-35 h-35" src="./assets/images/google-plus-64.png" alt=""></a></div>
-						<div class="box in d-flex align-items-center justify-content-center"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
-					</div>
-				</div> <!-- contentBox -->
-			</div>
-			<div class="row">
-				<!-- contentBox -->
-				<div class="contentBox3">
-					<div class="footerBottom d-flex justify-content-center">
-						<p class="text-center m-0">Copyright &copy; <span id="date"></span> Unique Tech.</p>
-						<p class="text-center ms-2">All rights reserved.</p>
-					</div>
-				</div> <!-- contentBox -->
-			</div>
-		</div> <!-- wrapper -->
-	</div> <!-- siteWrapper -->
-</section> <!-- footer -->
+	</div>
 
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
 
@@ -697,7 +844,18 @@
 
 </script>
 
+		<script>
+			let myVar;
 
+			function myFunction() {
+				myVar = setTimeout(showPage, 3000);
+			}
+
+			function showPage() {
+				document.getElementById("loader").style.display = "none";
+				document.getElementById("body").style.display = "block";
+			}
+		</script>
 
 </body>
 </html>
